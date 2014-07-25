@@ -21,6 +21,9 @@ return array(
 		'application.components.*',
 		'application.extensions.*',
 	),
+    'preload' => array(
+        'bootstrap',
+    ),
     'modules'=>array(
 		'admini'=>array(
 		     'class'=>'application.modules.admini.AdminiModule',
@@ -30,6 +33,10 @@ return array(
 		)
 	),
 	'components'=>array(
+//        'bootstrap' => array(
+//            'class' => 'ext.bootstrap.components.Booster',
+//            'responsiveCss' => true,
+//        ),
         'cache'=>array(
            'class'=>'CFileCache',
         ),
