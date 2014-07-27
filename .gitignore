@@ -31,3 +31,4 @@ phpunit.phar
 
 #config tmp
 /config
+/assets

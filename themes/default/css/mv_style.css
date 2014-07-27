@@ -390,7 +390,7 @@ a:hover{color:#b31015;}
 	margin-bottom: 1px;
 }
 .works1 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works1 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works1 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works1 ul li a span b{
 	display: block;
 	color: #FFF;
@@ -428,7 +428,7 @@ a:hover{color:#b31015;}
 	margin-bottom: 1px;
 }
 .works2 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works2 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works2 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works2 ul li a span b{
 	display: block;
 	color: #FFF;
@@ -465,7 +465,7 @@ a:hover{color:#b31015;}
 	margin-bottom: 1px;
 }
 .works3 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works3 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works3 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works3 ul li a span b{
 	display: block;
 	color: #FFF;
@@ -503,7 +503,7 @@ a:hover{color:#b31015;}
 	margin-bottom: 1px;
 }
 .works4 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works4 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works4 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works4 ul li a span b{
 	display: block;
 	color: #FFF;
@@ -977,7 +977,7 @@ a:hover{color:#b31015;}
 	margin-bottom: 1px;
 }
 .works_list dl dd a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works_list dl dd a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works_list dl dd a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works_list dl dd a span b{
 	display: block;
 	color: #FFF;
@@ -1932,6 +1932,7 @@ a.hover.shop6{
 	margin-right: auto;
 	margin-bottom: 0;
 	margin-left: auto;
+    text-align: center;
 }
 .sitemaps {
 	POSITION: relative; PADDING-TOP:0px;padding-bottom:20px;BACKGROUND-COLOR: #212121; 
