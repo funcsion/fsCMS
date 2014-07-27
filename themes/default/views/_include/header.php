@@ -78,8 +78,8 @@
                 <?php
                 $i =1;
                 foreach((array)$this->_big_catalog as $key=>$row):
-                    ?>
-                    <li onmouseover="javascript:toggle_nav(<?=$i +=1;?>)"><a href="about.html" title="<?=$row['catalog_name']?>" target="_blank"><?=$row['catalog_name']?><span>BRAND STORY</span></a></li>
+                ?>
+                    <li onmouseover="javascript:toggle_nav(<?=$i +=1;?>)"><a href="<?php echo $this->createUrl($row['catalog_name_alias'])?>" title="<?=$row['catalog_name']?>" target="_blank"><?=$row['catalog_name']?><span><?=$row['catalog_name_second']?></span></a></li>
                 <?php endforeach?>
             </ul>
             <div class="clear"></div>

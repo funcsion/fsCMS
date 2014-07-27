@@ -33,7 +33,8 @@ class XFrontBase extends Controller
             $this->redirect(array('/install'));
         //系统配置
         $this->_conf = XXcache::system('_config');
-        $this->_catalog = Catalog::get(0, XXcache::system('_catalog'));
+//        $this->_catalog = Catalog::get(0, XXcache::system('_catalog'));
+        $this->_catalog = XXcache::system('_catalog');
         foreach($this->_catalog as $val) {
             if($val['parent_id'] == 0) {
                 $this->_big_catalog[] = ['catalog_name' =>$val['catalog_name'],'catalog_name_second' =>$val['catalog_name_second'],'catalog_name_alias' =>$val['catalog_name_alias']];
