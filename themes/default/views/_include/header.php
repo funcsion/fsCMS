@@ -7,7 +7,7 @@
     <meta name="author" content="Funsion" />
     <meta name="keywords" content="<?php echo $this->_seoKeywords?>">
     <meta name="description" content="<?php echo $this->_seoDescription?>">
-    <link href="<?php echo $this->_theme->baseUrl?>/theme/style.css"  type="text/css" rel="stylesheet" />
+    <link href="<?php echo $this->_theme->baseUrl?>/css/style.css"  type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="<?php echo $this->_theme->baseUrl?>/theme/jquery-1.7.2.min.js" ></script>
     <script type="text/javascript" src="<?php echo $this->_theme->baseUrl?>/theme/jquery.easing.1.3.js"></script>
     <!--    <meta property="wb:webmaster" content="3dc2c539682e3866" />-->

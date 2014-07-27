@@ -2,22 +2,22 @@
 /* 技术支持：海鸣网络 www.haimin.net */
 
 body{
-	font-family:"宋体", sans-serif;
-	font-size:12px;
-	color:#333333;
-	background-color: #ffffff;	
+    font-family:"宋体", sans-serif;
+    font-size:12px;
+    color:#333333;
+    background-color: #ffffff;
 }
 .none{ display:none;}
 *{
-	margin:0px;
-	padding:0px;
-}	
+    margin:0px;
+    padding:0px;
+}
 h1, h2, h3, h4, h5, h6, p, span,em,small{font-weight:normal; font-style:normal;}
 
 h1, h2, h3, h4, h5, h6,small{font-size:12px;}
-i{ font-style:normal;}	
+i{ font-style:normal;}
 li{
-	list-style-type: none;
+    list-style-type: none;
 }
 img {border:0}
 html{ overflow-x:hidden;overflow-y:auto;}
@@ -29,67 +29,67 @@ a:visited{color:#333333;}
 a:hover{color:#b31015;}
 
 #header {
-	width: 100%;
-	height: 159px;
-	background-image: url(header.jpg)/*tpa=http://www.manyvisions.net/theme/header.jpg*/;
-	background-repeat: repeat-x;
+    width: 100%;
+    height: 159px;
+    background-image: url(../images/header.jpg)/*tpa=http://www.manyvisions.net/theme/header.jpg*/;
+    background-repeat: repeat-x;
 }
 #header .at{
-	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	height: 159px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 159px;
 }
 #header h1{
-	width: 1000px;
-	height: 84px;
-	float: left;
+    width: 1000px;
+    height: 84px;
+    float: left;
 }
 #header h1 a{
-	width: 924px;
-	height: 84px;
-	background-image: url(logo.jpg)/*tpa=http://www.manyvisions.net/theme/logo.jpg*/;
-	background-repeat: no-repeat;
-	display: block;
-	float:left;
-	margin: 15px;
+    width: 924px;
+    height: 84px;
+    background-image: url(../images/logo.jpg)/*tpa=http://www.manyvisions.net/theme/logo.jpg*/;
+    background-repeat: no-repeat;
+    display: block;
+    float:left;
+    margin: 15px;
 }
 #header h1 em{
-	float: left;
-	padding-top: 50px;
-	width: 100px;
+    float: left;
+    padding-top: 50px;
+    width: 100px;
 }
 #header h1 span{
-	float: right;
-	padding-right: 90px;
-	padding-top: 50px;
-	width: 90px;
-	height: 20px;
+    float: right;
+    padding-right: 90px;
+    padding-top: 50px;
+    width: 90px;
+    height: 20px;
 }
 #header .nav {
-	width: 1000px;
-	position: relative;
-	float: left;
-	padding-top: 24px;
+    width: 1000px;
+    position: relative;
+    float: left;
+    padding-top: 24px;
 }
 #header .nav li{
-	float: left;
-	margin-left: 20px;
-	margin-right: 25px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 #header .nav li a{
-	font-family: "微软雅黑";
-	font-size: 18px;
-	color: #ccc5d2;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #ccc5d2;
 }
 #header .nav li a span{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	display: block;
-	color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    display: block;
+    color: #ffffff;
 }
 #header .nav li a:hover{
-	color: #ffffff;
+    color: #ffffff;
 }
 
 
@@ -98,19 +98,19 @@ a:hover{color:#b31015;}
 .site-nav-left a,.logo,.site-nav-right .cart,.mall-search,.floor-content3 li .arrow,.box-ft .arrow,
 .box-c .box-bd a,.box-c .box-bd span,.foot-tags div,.foot-links-content a,.foot-bt-links .lang-tip ,.foot-bt-links .lang,
 .floor1-nav-content a div,.banner-nav li,.ft-logo,.floor1-title{
-	background: url(icons.png)/*tpa=http://www.manyvisions.net/theme/icons.png*/ no-repeat;
+    background: url(icons.png)/*tpa=http://www.manyvisions.net/theme/icons.png*/ no-repeat;
 }
 .slide-banner{
-	height: 543px;
-	position: relative;
+    height: 543px;
+    position: relative;
 }
 .banner-bg{
-	position: absolute;	
-	left: 0;
-	top: 0;
-	height: 543px;
-	z-index: 1;
-	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 543px;
+    z-index: 1;
+    width: 100%;
     background-color: #f4f4f4;
     background-position: 50% 0;
 }
@@ -121,36 +121,36 @@ a:hover{color:#b31015;}
     position: relative;
     z-index: 199;
     bottom: 70px;
-	filter:alpha(opacity=75);
-	opacity:0.75;
+    filter:alpha(opacity=75);
+    opacity:0.75;
 }
 .banner-nav{
-	position: absolute;
-	left: 50%;
-	bottom: 32px;
-	z-index: 999;
+    position: absolute;
+    left: 50%;
+    bottom: 32px;
+    z-index: 999;
 }
 .banner-nav li{
-	float: left;
-	width: 16px;
-	height: 16px;
-	background-position: -257px -929px;
-	margin-right: 8px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background-position: -257px -929px;
+    margin-right: 8px;
     cursor: pointer;
 }
 .banner-nav li.active{
-	background-position: -280px -929px;
+    background-position: -280px -929px;
 }
 .banner-content{
-	width: 1180px;
-	margin: 0 auto;
-	position: relative;
-	height: 543px;
-	z-index: 100;
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    height: 543px;
+    z-index: 100;
 }
 .banner-img{
-	position: absolute;
-	z-index: 2;
+    position: absolute;
+    z-index: 2;
     left: -150%;
 }
 
@@ -164,38 +164,38 @@ a:hover{color:#b31015;}
     z-index: 99999;
 }
 .banner-bar{
-	height: 3px;
-	width: 0;
-	background: #694873;
-	position: absolute;
-	left: 0;
-	z-index: 999;
+    height: 3px;
+    width: 0;
+    background: #694873;
+    position: absolute;
+    left: 0;
+    z-index: 999;
 }
 
 
 .copyright_info {
-	CLEAR: both;background-color:#000;padding-left:70px;
+    CLEAR: both;background-color:#000;padding-left:70px;
 }
 .copyright_info .copyright {
-	HEIGHT: 150px; COLOR: #fff; clear:both;
+    HEIGHT: 150px; COLOR: #fff; clear:both;
 }
 .copyright_info .copyright P {
-	PADDING-TOP: 10px
+    PADDING-TOP: 10px
 }
 .copyright_info .copyright P.englishCopy {
-	PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 9px; PADDING-TOP: 0px
+    PADDING-BOTTOM: 0px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 9px; PADDING-TOP: 0px
 }
 .copyright_info .copyright H3.manyvisonslogo {
-	FLOAT: left;
+    FLOAT: left;
 }
 .copyright_info .copyright H3.manyvisonslogo A {
-	BACKGROUND-IMAGE: url(bottomlogo.jpg)/*tpa=http://www.manyvisions.net/theme/bottomlogo.jpg*/; WIDTH: 374px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 90px; text-indent:-99999px;
+    BACKGROUND-IMAGE: url(bottomlogo.jpg)/*tpa=http://www.manyvisions.net/theme/bottomlogo.jpg*/; WIDTH: 374px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 90px; text-indent:-99999px;
 }
 .copyright_info .copyright A {
-	COLOR: #fff
+    COLOR: #fff
 }
 .copyright_info .copyright A:hover {
-	COLOR: #fff
+    COLOR: #fff
 }
 #linka {margin-top:0px; margin-bottom:0px; background-color: #000000}
 #linka a {color: #7B7B7B}
@@ -204,9 +204,9 @@ a:hover{color:#b31015;}
 
 
 #netso {
-	line-height: 16px;
-	text-align: left;
-	margin-top: 10px;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 10px;
 }
 #netso a {color: #7C7C7C; margin-right:5px}
 #netso a:hover {color: #A7A7A7}
@@ -220,87 +220,87 @@ a:hover{color:#b31015;}
 
 
 .main{
-	width: 986px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
 }
 .kefu{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	height: 150px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 150px;
 }
 .kefu a{
-	display: block;
-	float: left;
+    display: block;
+    float: left;
 }
 .kefu .qq{
-	height: 150px;
-	width: 319px;
-	background-image: url(qq.jpg)/*tpa=http://www.manyvisions.net/theme/qq.jpg*/;
-	background-repeat: no-repeat;
-	margin-right: 0px;
+    height: 142px;
+    width: 295px;
+
+    background-repeat: no-repeat;
+    margin-right: 0px;
 }
 .kefu .weibo{
-	height: 150px;
-	width: 319px;
-	background-image: url(weibo.jpg)/*tpa=http://www.manyvisions.net/theme/weibo.jpg*/;
-	background-repeat: no-repeat;
-	margin-right: 0px;
+    height: 142px;
+    width: 389px;
+    background-image: url(weibo.jpg)/*tpa=http://www.manyvisions.net/theme/weibo.jpg*/;
+    background-repeat: no-repeat;
+    margin-right: 0px;
 }
 .kefu .weixin{
-	height: 150px;
-	width: 319px;
-	background-image: url(weixin.jpg)/*tpa=http://www.manyvisions.net/theme/weixin.jpg*/;
-	background-repeat: no-repeat;
+    height: 142px;
+    width: 295px;
+    background-image: url(weixin.jpg)/*tpa=http://www.manyvisions.net/theme/weixin.jpg*/;
+    background-repeat: no-repeat;
 }
 
 .toutiao {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(toutiao.jpg)/*tpa=http://www.manyvisions.net/theme/toutiao.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    background-image: url(../images/t_news.jpg)/*tpa=http://www.manyvisions.net/theme/toutiao.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .toutiao div{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 71px;
 }
 .toutiao div a{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
 
 .event {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(event.jpg)/*tpa=http://www.manyvisions.net/theme/event.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    background-image: url(event.jpg)/*tpa=http://www.manyvisions.net/theme/event.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .event_m{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	margin-top: 73px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-top: 73px;
 }
 .event_v {
-	width: 960px;
-	height: 540px;
-	float: left;
+    width: 960px;
+    height: 540px;
+    float: left;
 }
 .event_l{
-	float: right;
-	width:527px
+    float: right;
+    width:527px
 }
 .event_l ul li{float:left; padding:8px 0 8px 0; border-bottom:1px solid #cacaca;}
 
@@ -330,9 +330,9 @@ a:hover{color:#b31015;}
 .opacity{margin:0 0 1px 1px; width:296px; height:267px; display:inline; float:left; background:#000;}
 
 .event_b{
-	float: left;
-	width: 960px;
-	margin-top: 15px;
+    float: left;
+    width: 960px;
+    margin-top: 15px;
 }
 .event_b ul li{float:left; padding:20px 0 30px 0; border-bottom:1px solid #cacaca;}
 
@@ -356,261 +356,261 @@ a:hover{color:#b31015;}
 
 
 .banner{
-	height: 418px;
-	width: 100%;
-	position: relative;
-	z-index: 1;
-	margin-bottom: 15px;
+    height: 418px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
 }
 .banner p{
-	left:50%;
-	margin-left:-960px;
-	top:0;
-	position: absolute;
+    left:50%;
+    margin-left:-960px;
+    top:0;
+    position: absolute;
 }
 
 
 .works1 {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(works1.jpg)/*tpa=http://www.manyvisions.net/theme/works1.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 980px;
+    overflow: hidden;
+    background-image: url(../images/t_showcase.jpg)/*tpa=http://www.manyvisions.net/theme/works1.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .works1 ul{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 71px;
+    overflow: hidden;
 }
 .works1 ul li{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .works1 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works1 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works1 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works1 ul li a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 239px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 239px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 
 .works2 {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(works2.jpg)/*tpa=http://www.manyvisions.net/theme/works2.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 980px;
+    overflow: hidden;
+    background-image: url(../images/t_landscape.jpg)/*tpa=http://www.manyvisions.net/theme/works2.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .works2 ul{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 71px;
+    overflow: hidden;
 }
 .works2 ul li{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .works2 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works2 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works2 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works2 ul li a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 239px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 239px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 .works3 {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(works3.jpg)/*tpa=http://www.manyvisions.net/theme/works3.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 980px;
+    overflow: hidden;
+    background-image: url(../images/t_prrtrait.jpg)/*tpa=http://www.manyvisions.net/theme/works3.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .works3 ul{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 71px;
+    overflow: hidden;
 }
 .works3 ul li{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .works3 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works3 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works3 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works3 ul li a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 239px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 239px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 
 .works4 {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(works4.jpg)/*tpa=http://www.manyvisions.net/theme/works4.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 980px;
+    overflow: hidden;
+    background-image: url(../images/t_travel.jpg)/*tpa=http://www.manyvisions.net/theme/works4.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .works4 ul{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 71px;
+    overflow: hidden;
 }
 .works4 ul li{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .works4 ul li a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works4 ul li a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works4 ul li a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works4 ul li a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 239px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 239px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 .banner2{
-	width: 960px;
-	overflow: hidden;
-	margin-right: auto;
-	margin-left: auto;
-	height: 535px;
-	margin-bottom: 15px;
+    width: 960px;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    height: 535px;
+    margin-bottom: 15px;
 }
 
 
 .scene_i {
-	width: 986px;
-	overflow: hidden;
-	background-image: url(scene.jpg)/*tpa=http://www.manyvisions.net/theme/scene.jpg*/;
-	background-repeat: no-repeat;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    background-image: url(scene.jpg)/*tpa=http://www.manyvisions.net/theme/scene.jpg*/;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
 }
 .scene_i ul{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 61px;
 }
 .scene_i ul li{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .scene_i ul li a{width:479px; height:235px; display:block; position:relative; overflow:hidden;}
 .scene_i ul li a span{width:479px; height:51px; display:block; background:url(jd1.png)/*tpa=http://www.manyvisions.net/theme/jd1.png*/ no-repeat; position:absolute; left:0; bottom:-51px}
 .scene_i ul li a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 479px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 2px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 479px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 
 .mapshop{
-	width: 100%;
-	height: 824px;
-	position: relative;
-	z-index: 1;
+    width: 100%;
+    height: 824px;
+    position: relative;
+    z-index: 1;
 }
 .mapshop p{
-	left:50%;
-	margin-left:-939px;
-	top:0;
-	position: absolute;
+    left:50%;
+    margin-left:-939px;
+    top:0;
+    position: absolute;
 }
 .mapshop_m{
-	width: 844px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
+    width: 844px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
 }
 .mapshop_b{
-	width: 986px;
-	background-image: url(mapshop_b.gif)/*tpa=http://www.manyvisions.net/theme/mapshop_b.gif*/;
-	background-repeat: no-repeat;
-	height: 121px;	
+    width: 986px;
+    background-image: url(mapshop_b.gif)/*tpa=http://www.manyvisions.net/theme/mapshop_b.gif*/;
+    background-repeat: no-repeat;
+    height: 121px;
 }
 
 
 .wbxe{
-	width: 986px;
-	margin-right: auto;
-	margin-left: auto;
-	overflow: hidden;
-	margin-bottom: 15px;
+    width: 986px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
 .wbxe .wpj{
-	float: left;
-	height: 690px;
-	width: 331px;
-	background-image: url(wpj.jpg)/*tpa=http://www.manyvisions.net/theme/wpj.jpg*/;
-	background-repeat: no-repeat;
+    float: left;
+    height: 690px;
+    width: 331px;
+    background-image: url(wpj.jpg)/*tpa=http://www.manyvisions.net/theme/wpj.jpg*/;
+    background-repeat: no-repeat;
 }
 #indexinlove{margin-left:40px; margin-top:145px;}
 #indexinlove dl{width:270px;height:80px;float:left;display:inline;margin-left:0px;margin-bottom:10px;}
-#indexinlove dt{ width:60px; height:60px; background-color:#CCCCCC; padding:3px; float:left;} 
-#indexinlove dd{ width:195px; float:right;} 
+#indexinlove dt{ width:60px; height:60px; background-color:#CCCCCC; padding:3px; float:left;}
+#indexinlove dd{ width:195px; float:right;}
 .text1{ line-height:22px; color:#333333; font-weight:bold; }
 .text2{ line-height:16px; color:#666666; }
 .text3{ font-family:Arial; font-size:12px; line-height:16px; color:#666666; }
@@ -618,73 +618,73 @@ a:hover{color:#b31015;}
 #indexinlove dl dd p a:visited{color:#333333;}
 #indexinlove dl dd p a:hover{color:#b31015;}
 .wbxe .weiboapi{
-	float: left;
-	background-image: url(weiboapi.jpg)/*tpa=http://www.manyvisions.net/theme/weiboapi.jpg*/;
-	background-repeat: no-repeat;
-	height: 690px;
-	width: 326px;
+    float: left;
+    background-image: url(weiboapi.jpg)/*tpa=http://www.manyvisions.net/theme/weiboapi.jpg*/;
+    background-repeat: no-repeat;
+    height: 690px;
+    width: 326px;
 }
 .wbxe .weiboapi p{
-	width: 289px;
-	height: 526px;
-	margin-top: 130px;
-	margin-left: 20px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+    width: 289px;
+    height: 526px;
+    margin-top: 130px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 .wbxe .huodong{
-	float: left;
-	margin-top: 30px;
-	margin-left: 15px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	width: 311px;
-	height: 658px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 311px;
+    height: 658px;
 }
 
 
 
 .floatobj{ height:0px; display:block; width:1003px; position:relative; margin:0 auto;}
 .float{
-	width: 96px;
-	padding: 7px;
-	position: absolute;
-	right: -103px;
-	top: 800px;
-	z-index: 100;
+    width: 96px;
+    padding: 7px;
+    position: absolute;
+    right: -103px;
+    top: 800px;
+    z-index: 100;
 }
 .float .f0{
-	width: 41px;
-	height: 13px;
-	background: url(f0.png)/*tpa=http://www.manyvisions.net/theme/f0.png*/ no-repeat;
-	display: block;
-	margin-bottom: 4px;
-	margin-right: auto;
-	margin-left: auto;
+    width: 41px;
+    height: 13px;
+    background: url(f0.png)/*tpa=http://www.manyvisions.net/theme/f0.png*/ no-repeat;
+    display: block;
+    margin-bottom: 4px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .float .f1{
-	width: 96px;
-	height: 154px;
-	background: url(f1.png)/*tpa=http://www.manyvisions.net/theme/f1.png*/ no-repeat;
-	display: block;
-	margin-bottom: 1px;
+    width: 96px;
+    height: 154px;
+    background: url(f1.png)/*tpa=http://www.manyvisions.net/theme/f1.png*/ no-repeat;
+    display: block;
+    margin-bottom: 1px;
 }
 .float .f2{
-	width: 96px;
-	height: 154px;
-	background: url(f2.png)/*tpa=http://www.manyvisions.net/theme/f2.png*/ no-repeat;
-	display: block;
-	margin-bottom: 1px;
+    width: 96px;
+    height: 154px;
+    background: url(f2.png)/*tpa=http://www.manyvisions.net/theme/f2.png*/ no-repeat;
+    display: block;
+    margin-bottom: 1px;
 }
 .float .f3{
-	width: 96px;
-	height: 154px;
-	background: url(f3.png)/*tpa=http://www.manyvisions.net/theme/f3.png*/ no-repeat;
-	display: block;
-	margin-bottom: 1px;
+    width: 96px;
+    height: 154px;
+    background: url(f3.png)/*tpa=http://www.manyvisions.net/theme/f3.png*/ no-repeat;
+    display: block;
+    margin-bottom: 1px;
 }
 .float ins{
-	display: none;
+    display: none;
 }
 
 
@@ -695,12 +695,12 @@ a:hover{color:#b31015;}
 .scorollNav div{width:1188px; margin:0 auto; height:42px; line-height:42px;}
 
 .scorollNav div a{
-	color: #FFF;
-	font-weight: bold;
-	font-size: 14px;
-	padding: 0 20px;
-	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .scorollNav div a:hover{color:#ffda00;}
@@ -727,106 +727,106 @@ a:hover{color:#b31015;}
 
 
 .headt {
-	font-size: 14px;
-	position: absolute;
-	z-index: 1000;
-	background-image: url(navbg.png)/*tpa=http://www.manyvisions.net/theme/navbg.png*/;
-	background-repeat: repeat-x;
-	height: 23px;
-	font-family: "微软雅黑";
-	color: #FFF;
-	padding-top: 18px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1000;
+    background-image: url(../images/navbg.png)/*tpa=http://www.manyvisions.net/theme/navbg.png*/;
+    background-repeat: repeat-x;
+    height: 23px;
+    font-family: "微软雅黑";
+    color: #FFF;
+    padding-top: 18px;
 }
 .headt a{
-	font-size: 14px;
-	font-family: "微软雅黑";
-	color: #FFF;
-	padding: 10px;
-	margin-top: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #FFF;
+    padding: 10px;
+    margin-top: 10px;
 }
 .headt a:hover{
-	font-size: 14px;
-	font-family: "微软雅黑";
-	color: #ffd100;
-	padding: 10px;
-	margin-top: 10px;
-	}
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ffd100;
+    padding: 10px;
+    margin-top: 10px;
+}
 #zzjs_nav1{
-	left: 20px;
+    left: 20px;
 }
 #zzjs_nav2{
-	left: 110px;
+    left: 110px;
 }
 #zzjs_nav3{
-	left: 225px;
+    left: 225px;
 }
 #zzjs_nav4{
-	left: 355px;
+    left: 355px;
 }
 #zzjs_nav5{
-	left: 490px;
+    left: 490px;
 }
 #zzjs_nav6{
-	left: 610px;
+    left: 610px;
 }
 #zzjs_nav7{
-	left: 730px;
+    left: 730px;
 }
 
 
 .text {
-	width: 986px;
-	overflow: hidden;
-	margin-bottom: 15px;
-	font-size: 14px;
-	line-height: 22px;
+    width: 986px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 22px;
 }
 .text .auto{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 80px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    overflow: hidden;
 }
 .about {
-	background-image: url(about.jpg)/*tpa=http://www.manyvisions.net/theme/about.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(about.jpg)/*tpa=http://www.manyvisions.net/theme/about.jpg*/;
+    background-repeat: no-repeat;
 }
 .shop {
-	background-image: url(shop.jpg)/*tpa=http://www.manyvisions.net/theme/shop.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(shop.jpg)/*tpa=http://www.manyvisions.net/theme/shop.jpg*/;
+    background-repeat: no-repeat;
 }
 .course {
-	background-image: url(course.jpg)/*tpa=http://www.manyvisions.net/theme/course.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(course.jpg)/*tpa=http://www.manyvisions.net/theme/course.jpg*/;
+    background-repeat: no-repeat;
 }
 .team {
-	background-image: url(team.jpg)/*tpa=http://www.manyvisions.net/theme/team.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(team.jpg)/*tpa=http://www.manyvisions.net/theme/team.jpg*/;
+    background-repeat: no-repeat;
 }
 .idea {
-	background-image: url(idea.jpg)/*tpa=http://www.manyvisions.net/theme/idea.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(idea.jpg)/*tpa=http://www.manyvisions.net/theme/idea.jpg*/;
+    background-repeat: no-repeat;
 }
 .honor {
-	background-image: url(honor.jpg)/*tpa=http://www.manyvisions.net/theme/honor.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(honor.jpg)/*tpa=http://www.manyvisions.net/theme/honor.jpg*/;
+    background-repeat: no-repeat;
 }
 .contact {
-	background-image: url(contact.jpg)/*tpa=http://www.manyvisions.net/theme/contact.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(contact.jpg)/*tpa=http://www.manyvisions.net/theme/contact.jpg*/;
+    background-repeat: no-repeat;
 }
 .job {
-	background-image: url(job.jpg)/*tpa=http://www.manyvisions.net/theme/job.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(job.jpg)/*tpa=http://www.manyvisions.net/theme/job.jpg*/;
+    background-repeat: no-repeat;
 }
 .join {
-	background-image: url(join.jpg)/*tpa=http://www.manyvisions.net/theme/join.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(join.jpg)/*tpa=http://www.manyvisions.net/theme/join.jpg*/;
+    background-repeat: no-repeat;
 }
 .order {
-	background-image: url(order.jpg)/*tpa=http://www.manyvisions.net/theme/order.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(order.jpg)/*tpa=http://www.manyvisions.net/theme/order.jpg*/;
+    background-repeat: no-repeat;
 }
 
 
@@ -834,16 +834,16 @@ a:hover{color:#b31015;}
 
 /*在线预订*/
 .orders {
-	width: 750px;
-	padding-top: 50px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	clear: both;
+    width: 750px;
+    padding-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    clear: both;
 }
 .orders li{line-height:28px;overflow:hidden;}
 .orders_header span{
-	color:#cc0066;}	
+    color:#cc0066;}
 .orders_header {padding-bottom:20px;}
 .orders_footer {line-height:22px;padding-top:20px;}
 .orders_name {width:140px;text-align:left;float:left;}
@@ -857,736 +857,736 @@ a:hover{color:#b31015;}
 
 
 .huannav{
-	width: 960px;
-	overflow: hidden;
+    width: 960px;
+    overflow: hidden;
 }
 .huannav li{
-	float: left;
+    float: left;
 }
 
 .huannav2{
-	width: 860px;
-	overflow: hidden;
-	margin:0 auto;
+    width: 860px;
+    overflow: hidden;
+    margin:0 auto;
 }
 .huannav2 li{
-	float: left;
+    float: left;
 }
 
 
-	
-	
-	
-	
+
+
+
+
 .works {
-	width: 986px;
-	overflow: hidden;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
 .works_list0{
-	background-image: url(works_list0.jpg)/*tpa=http://www.manyvisions.net/theme/works_list0.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(works_list0.jpg)/*tpa=http://www.manyvisions.net/theme/works_list0.jpg*/;
+    background-repeat: no-repeat;
 }
 .works_list1{
-	background-image: url(works_list1.jpg)/*tpa=http://www.manyvisions.net/theme/works_list1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(works_list1.jpg)/*tpa=http://www.manyvisions.net/theme/works_list1.jpg*/;
+    background-repeat: no-repeat;
 }
 .works_list2{
-	background-image: url(works_list2.jpg)/*tpa=http://www.manyvisions.net/theme/works_list2.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(works_list2.jpg)/*tpa=http://www.manyvisions.net/theme/works_list2.jpg*/;
+    background-repeat: no-repeat;
 }
 .works_list3{
-	background-image: url(works_list3.jpg)/*tpa=http://www.manyvisions.net/theme/works_list3.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(works_list3.jpg)/*tpa=http://www.manyvisions.net/theme/works_list3.jpg*/;
+    background-repeat: no-repeat;
 }
 .works_list4{
-	background-image: url(works_list4.jpg)/*tpa=http://www.manyvisions.net/theme/works_list4.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(works_list4.jpg)/*tpa=http://www.manyvisions.net/theme/works_list4.jpg*/;
+    background-repeat: no-repeat;
 }
 .works .works_auto{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 61px;
+    overflow: hidden;
 }
 .works_top{
-	width: 960px;
-	height: 350px;
-	background-image: url(works_top.jpg)/*tpa=http://www.manyvisions.net/theme/works_top.jpg*/;
-	background-repeat: no-repeat;
-	float: left;
-	margin-top: 20px;
-	margin-bottom: 40px;
+    width: 960px;
+    height: 350px;
+    background-image: url(works_top.jpg)/*tpa=http://www.manyvisions.net/theme/works_top.jpg*/;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .works_top a{
-	float: right;
-	margin-right: 15px;
+    float: right;
+    margin-right: 15px;
 }
 
 .more2{
-	float: right;
-	height: 31px;
-	width: 124px;
-	display: block;
+    float: right;
+    height: 31px;
+    width: 124px;
+    display: block;
 }
 .works_list{
-	float: left;
-	width: 960px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #e3e3e3;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+    float: left;
+    width: 960px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e3e3e3;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .works_list dt.works1{
-	height: 31px;
-	background-image: url(works1_list.gif)/*tpa=http://www.manyvisions.net/theme/works1_list.gif*/;
-	background-repeat: no-repeat;
-	float: left;
-	width: 960px;
-	margin-bottom: 10px;
+    height: 31px;
+    background-image: url(works1_list.gif)/*tpa=http://www.manyvisions.net/theme/works1_list.gif*/;
+    background-repeat: no-repeat;
+    float: left;
+    width: 960px;
+    margin-bottom: 10px;
 }
 .works_list dt.works2{
-	height: 31px;
-	background-image: url(works2_list.gif)/*tpa=http://www.manyvisions.net/theme/works2_list.gif*/;
-	background-repeat: no-repeat;
-	float: left;
-	width: 960px;
-	margin-bottom: 10px;
+    height: 31px;
+    background-image: url(works2_list.gif)/*tpa=http://www.manyvisions.net/theme/works2_list.gif*/;
+    background-repeat: no-repeat;
+    float: left;
+    width: 960px;
+    margin-bottom: 10px;
 }
 .works_list dt.works3{
-	height: 31px;
-	background-image: url(works3_list.gif)/*tpa=http://www.manyvisions.net/theme/works3_list.gif*/;
-	background-repeat: no-repeat;
-	float: left;
-	width: 960px;
-	margin-bottom: 10px;
+    height: 31px;
+    background-image: url(works3_list.gif)/*tpa=http://www.manyvisions.net/theme/works3_list.gif*/;
+    background-repeat: no-repeat;
+    float: left;
+    width: 960px;
+    margin-bottom: 10px;
 }
 .works_list dt.works4{
-	height: 31px;
-	background-image: url(works4_list.gif)/*tpa=http://www.manyvisions.net/theme/works4_list.gif*/;
-	background-repeat: no-repeat;
-	float: left;
-	width: 960px;
-	margin-bottom: 10px;
+    height: 31px;
+    background-image: url(works4_list.gif)/*tpa=http://www.manyvisions.net/theme/works4_list.gif*/;
+    background-repeat: no-repeat;
+    float: left;
+    width: 960px;
+    margin-bottom: 10px;
 }
 .works_list dl dd{
-	float: left;
-	margin-right: 1px;
-	margin-bottom: 1px;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 .works_list dl dd a{width:239px; height:349px; display:block; position:relative; overflow:hidden;}
-.works_list dl dd a span{width:239px; height:64px; display:block; background:url(zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
+.works_list dl dd a span{width:239px; height:64px; display:block; background:url(../images/zp1.png)/*tpa=http://www.manyvisions.net/theme/zp1.png*/ no-repeat; position:absolute; left:0; bottom:-64px}
 .works_list dl dd a span b{
-	display: block;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 239px;
-	height: 50px;
-	line-height: 26px;
-	overflow: hidden;
-	padding-top: 10px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0px;
-	text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 239px;
+    height: 50px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    text-align: center;
 }
 
 .announcement{
-	width: 960px;
-	background-color: #ffffff;
-	border-bottom-width: 10px;
-	border-bottom-style: solid;
-	border-bottom-color: #ffffff;
-	margin-top: 15px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 960px;
+    background-color: #ffffff;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .announcement p{
-	padding: 15px;
-	line-height: 18px;
+    padding: 15px;
+    line-height: 18px;
 }
 .announcement p b{
-	color: #fffffff;
-	font-weight: normal;
+    color: #fffffff;
+    font-weight: normal;
 }
 
 
 .page {
-	padding: 8px;
-	height: 35px;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 0px;
-	clear: both;
-	font-family: "宋体";
-	font-size: 12px;
+    padding: 8px;
+    height: 35px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    clear: both;
+    font-family: "宋体";
+    font-size: 12px;
 }
 .page a {
-	margin: 2px;
-	color: #5a5a5a;
-	text-decoration: none;
-	background-color: #e7e7e7;
-	padding-top: 8px;
-	padding-right: 6px;
-	padding-bottom: 8px;
-	padding-left: 6px;
+    margin: 2px;
+    color: #5a5a5a;
+    text-decoration: none;
+    background-color: #e7e7e7;
+    padding-top: 8px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    padding-left: 6px;
 }
 .page a:hover {
-	color: #ffffff;
-	background-color: #4b275d;
+    color: #ffffff;
+    background-color: #4b275d;
 }
 .page a:active {
-	color: #ffffff
+    color: #ffffff
 }
 .page span.current {
-	font-weight: bold;
-	margin: 2px;
-	color: #fff;
-	background-color: #4b275d;
-	padding-top: 8px;
-	padding-right: 6px;
-	padding-bottom: 8px;
-	padding-left: 6px;
+    font-weight: bold;
+    margin: 2px;
+    color: #fff;
+    background-color: #4b275d;
+    padding-top: 8px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    padding-left: 6px;
 }
 .page span.disabled {
-	margin: 2px;
-	color: #5a5a5a;
-	background-color: #e7e7e7;
-	padding-top: 8px;
-	padding-right: 6px;
-	padding-bottom: 8px;
-	padding-left: 6px;
+    margin: 2px;
+    color: #5a5a5a;
+    background-color: #e7e7e7;
+    padding-top: 8px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    padding-left: 6px;
 }
 
 
 .works_view{
-	width: 960px;
-	overflow: hidden;
-	padding-top:40px;
+    width: 960px;
+    overflow: hidden;
+    padding-top:40px;
 }
 .works_img{width: 1250px;overflow: hidden;margin-bottom:20px;margin-right: auto;margin-left: auto;}
 .works_img img{
-	border: 8px solid #f0f0f0;
-	margin-bottom:20px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	
+    border: 8px solid #f0f0f0;
+    margin-bottom:20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
 }
 .works_view img{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 .works_view .declaration{
-	background-image: url(declaration.gif)/*tpa=http://www.manyvisions.net/theme/declaration.gif*/;
-	background-repeat: no-repeat;
-	width: 920px;
-	float: left;
-	padding-top: 75px;
-	font-size: 12px;
-	line-height: 22px;
-	padding-right: 10px;
-	padding-bottom: 15px;
-	padding-left: 10px;
-	border: 8px solid #f0f0f0;
+    background-image: url(declaration.gif)/*tpa=http://www.manyvisions.net/theme/declaration.gif*/;
+    background-repeat: no-repeat;
+    width: 920px;
+    float: left;
+    padding-top: 75px;
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border: 8px solid #f0f0f0;
 }
 .works_view h1{
-	font-size: 30px;
-	font-family: "微软雅黑";
-	color: #cca6c4;
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-	float: left;
-	width: 960px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    color: #cca6c4;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    width: 960px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .works_date{
-	font-family: "微软雅黑";
-	font-size: 12px;
-	float: left;
-	line-height: 16px;
-	margin-right: 10px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
 }
 .turn {
-	float: left;
-	width: 960px;
-	height: 349px;
-	margin-bottom: 35px;
+    float: left;
+    width: 960px;
+    height: 349px;
+    margin-bottom: 35px;
 }
 .turn .prev{
-	float: left;
-	height: 349px;	
+    float: left;
+    height: 349px;
 }
 .turn .prev a{
-	width: 151px;
-	height: 60px;
-	background-image: url(prev.gif)/*tpa=http://www.manyvisions.net/theme/prev.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-top: 160px;
-	margin-left: 55px;
-	margin-right: 85px;
+    width: 151px;
+    height: 60px;
+    background-image: url(prev.gif)/*tpa=http://www.manyvisions.net/theme/prev.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 160px;
+    margin-left: 55px;
+    margin-right: 85px;
 }
 .turn .prev a:hover{
-	width: 151px;
-	height: 60px;
-	background-image: url(prev2.gif)/*tpa=http://www.manyvisions.net/theme/prev2.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-top: 160px;
-	margin-left: 55px;
-	margin-right: 85px;
+    width: 151px;
+    height: 60px;
+    background-image: url(prev2.gif)/*tpa=http://www.manyvisions.net/theme/prev2.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 160px;
+    margin-left: 55px;
+    margin-right: 85px;
 }
 .turn .center{
-	float: left;
-	height: 349px;
+    float: left;
+    height: 349px;
 }
 .turn .next{
-	float: left;
-	height: 349px;
+    float: left;
+    height: 349px;
 }
 .turn .next a{
-	width: 148px;
-	height: 60px;
-	background-image: url(next.gif)/*tpa=http://www.manyvisions.net/theme/next.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-left: 113px;
-	margin-right: 47px;
-	margin-top: 160px;
+    width: 148px;
+    height: 60px;
+    background-image: url(next.gif)/*tpa=http://www.manyvisions.net/theme/next.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 113px;
+    margin-right: 47px;
+    margin-top: 160px;
 }
 .turn .next a:hover{
-	width: 148px;
-	height: 60px;
-	background-image: url(next2.gif)/*tpa=http://www.manyvisions.net/theme/next2.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-left: 113px;
-	margin-right: 47px;
-	margin-top: 160px;
+    width: 148px;
+    height: 60px;
+    background-image: url(next2.gif)/*tpa=http://www.manyvisions.net/theme/next2.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 113px;
+    margin-right: 47px;
+    margin-top: 160px;
 }
 .share {
-	float: left;
-	width: 960px;
-	margin-bottom: 20px;
+    float: left;
+    width: 960px;
+    margin-bottom: 20px;
 }
 
 
 a.more{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #FFF;
-	float: right;
-	display: block;
-	margin-top: 21px;
-	margin-right: 30px;
-	font-weight: bold;
-	background-image: url(more.jpg)/*tpa=http://www.manyvisions.net/theme/more.jpg*/;
-	background-repeat: no-repeat;
-	width: 99px;
-	height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    float: right;
+    display: block;
+    margin-top: 21px;
+    margin-right: 30px;
+    font-weight: bold;
+    background-image: url(more.jpg)/*tpa=http://www.manyvisions.net/theme/more.jpg*/;
+    background-repeat: no-repeat;
+    width: 99px;
+    height: 23px;
 }
 a:hover.more{
-	color: #ffae00;
+    color: #ffae00;
 }
 
 
 a.about1{
-	height: 164px;
-	width: 163px;
-	background-image: url(about1.gif)/*tpa=http://www.manyvisions.net/theme/about1.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about1.gif)/*tpa=http://www.manyvisions.net/theme/about1.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a:hover.about1{
-	height: 164px;
-	width: 163px;
-	background-image: url(about1x.gif)/*tpa=http://www.manyvisions.net/theme/about1x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about1x.gif)/*tpa=http://www.manyvisions.net/theme/about1x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.hover.about1{
-	height: 164px;
-	width: 163px;
-	background-image: url(about1x.gif)/*tpa=http://www.manyvisions.net/theme/about1x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about1x.gif)/*tpa=http://www.manyvisions.net/theme/about1x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.about2{
-	height: 164px;
-	width: 163px;
-	background-image: url(about2.gif)/*tpa=http://www.manyvisions.net/theme/about2.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about2.gif)/*tpa=http://www.manyvisions.net/theme/about2.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a:hover.about2{
-	height: 164px;
-	width: 163px;
-	background-image: url(about2x.gif)/*tpa=http://www.manyvisions.net/theme/about2x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about2x.gif)/*tpa=http://www.manyvisions.net/theme/about2x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.hover.about2{
-	height: 164px;
-	width: 163px;
-	background-image: url(about2x.gif)/*tpa=http://www.manyvisions.net/theme/about2x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about2x.gif)/*tpa=http://www.manyvisions.net/theme/about2x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.about3{
-	height: 164px;
-	width: 164px;
-	background-image: url(about3.gif)/*tpa=http://www.manyvisions.net/theme/about3.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 164px;
+    background-image: url(about3.gif)/*tpa=http://www.manyvisions.net/theme/about3.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a:hover.about3{
-	height: 164px;
-	width: 164px;
-	background-image: url(about3x.gif)/*tpa=http://www.manyvisions.net/theme/about3x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 164px;
+    background-image: url(about3x.gif)/*tpa=http://www.manyvisions.net/theme/about3x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.hover.about3{
-	height: 164px;
-	width: 164px;
-	background-image: url(about3x.gif)/*tpa=http://www.manyvisions.net/theme/about3x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 164px;
+    background-image: url(about3x.gif)/*tpa=http://www.manyvisions.net/theme/about3x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.about4{
-	height: 164px;
-	width: 163px;
-	background-image: url(about4.gif)/*tpa=http://www.manyvisions.net/theme/about4.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about4.gif)/*tpa=http://www.manyvisions.net/theme/about4.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a:hover.about4{
-	height: 164px;
-	width: 163px;
-	background-image: url(about4x.gif)/*tpa=http://www.manyvisions.net/theme/about4x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about4x.gif)/*tpa=http://www.manyvisions.net/theme/about4x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 a.hover.about4{
-	height: 164px;
-	width: 163px;
-	background-image: url(about4x.gif)/*tpa=http://www.manyvisions.net/theme/about4x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
-	margin-left: 45px;
+    height: 164px;
+    width: 163px;
+    background-image: url(about4x.gif)/*tpa=http://www.manyvisions.net/theme/about4x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    margin-left: 45px;
 }
 .about_text {
-	background-image: url(about_text.jpg)/*tpa=http://www.manyvisions.net/theme/about_text.jpg*/;
-	background-repeat: no-repeat;
-	padding-left: 329px;
-	padding-top: 20px;
-	margin-top: 20px;
+    background-image: url(about_text.jpg)/*tpa=http://www.manyvisions.net/theme/about_text.jpg*/;
+    background-repeat: no-repeat;
+    padding-left: 329px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 .contact_text {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 
 a.shop1{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop1.gif)/*tpa=http://www.manyvisions.net/theme/shop1.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop1.gif)/*tpa=http://www.manyvisions.net/theme/shop1.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop1{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop1x.gif)/*tpa=http://www.manyvisions.net/theme/shop1x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop1x.gif)/*tpa=http://www.manyvisions.net/theme/shop1x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop1{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop1x.gif)/*tpa=http://www.manyvisions.net/theme/shop1x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop1x.gif)/*tpa=http://www.manyvisions.net/theme/shop1x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.shop2{
-	height: 173px;
-	width: 144px;
-	background-image: url(shop2.gif)/*tpa=http://www.manyvisions.net/theme/shop2.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 144px;
+    background-image: url(shop2.gif)/*tpa=http://www.manyvisions.net/theme/shop2.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop2{
-	height: 173px;
-	width: 144px;
-	background-image: url(shop2x.gif)/*tpa=http://www.manyvisions.net/theme/shop2x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 144px;
+    background-image: url(shop2x.gif)/*tpa=http://www.manyvisions.net/theme/shop2x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop2{
-	height: 173px;
-	width: 144px;
-	background-image: url(shop2x.gif)/*tpa=http://www.manyvisions.net/theme/shop2x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 144px;
+    background-image: url(shop2x.gif)/*tpa=http://www.manyvisions.net/theme/shop2x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.shop3{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop3.gif)/*tpa=http://www.manyvisions.net/theme/shop3.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop3.gif)/*tpa=http://www.manyvisions.net/theme/shop3.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop3{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop3x.gif)/*tpa=http://www.manyvisions.net/theme/shop3x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop3x.gif)/*tpa=http://www.manyvisions.net/theme/shop3x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop3{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop3x.gif)/*tpa=http://www.manyvisions.net/theme/shop3x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop3x.gif)/*tpa=http://www.manyvisions.net/theme/shop3x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.shop4{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop4.gif)/*tpa=http://www.manyvisions.net/theme/shop4.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop4.gif)/*tpa=http://www.manyvisions.net/theme/shop4.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop4{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop4x.gif)/*tpa=http://www.manyvisions.net/theme/shop4x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop4x.gif)/*tpa=http://www.manyvisions.net/theme/shop4x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop4{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop4x.gif)/*tpa=http://www.manyvisions.net/theme/shop4x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop4x.gif)/*tpa=http://www.manyvisions.net/theme/shop4x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.shop5{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop5.gif)/*tpa=http://www.manyvisions.net/theme/shop5.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop5.gif)/*tpa=http://www.manyvisions.net/theme/shop5.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop5{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop5x.gif)/*tpa=http://www.manyvisions.net/theme/shop5x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop5x.gif)/*tpa=http://www.manyvisions.net/theme/shop5x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop5{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop5x.gif)/*tpa=http://www.manyvisions.net/theme/shop5x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop5x.gif)/*tpa=http://www.manyvisions.net/theme/shop5x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.shop6{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop6.gif)/*tpa=http://www.manyvisions.net/theme/shop6.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop6.gif)/*tpa=http://www.manyvisions.net/theme/shop6.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a:hover.shop6{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop6x.gif)/*tpa=http://www.manyvisions.net/theme/shop6x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop6x.gif)/*tpa=http://www.manyvisions.net/theme/shop6x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 a.hover.shop6{
-	height: 173px;
-	width: 143px;
-	background-image: url(shop6x.gif)/*tpa=http://www.manyvisions.net/theme/shop6x.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	float: left;
+    height: 173px;
+    width: 143px;
+    background-image: url(shop6x.gif)/*tpa=http://www.manyvisions.net/theme/shop6x.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
 }
 
 
 .news {
-	width: 986px;
-	overflow: hidden;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
 .news_list0{
-	background-image: url(news_list1.jpg)/*tpa=http://www.manyvisions.net/theme/news_list1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list1.jpg)/*tpa=http://www.manyvisions.net/theme/news_list1.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_list1{
-	background-image: url(news_list1.jpg)/*tpa=http://www.manyvisions.net/theme/news_list1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list1.jpg)/*tpa=http://www.manyvisions.net/theme/news_list1.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_list2{
-	background-image: url(news_list2.jpg)/*tpa=http://www.manyvisions.net/theme/news_list2.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list2.jpg)/*tpa=http://www.manyvisions.net/theme/news_list2.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_list3{
-	background-image: url(news_list3.jpg)/*tpa=http://www.manyvisions.net/theme/news_list3.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list3.jpg)/*tpa=http://www.manyvisions.net/theme/news_list3.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_list4{
-	background-image: url(news_list4.jpg)/*tpa=http://www.manyvisions.net/theme/news_list4.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list4.jpg)/*tpa=http://www.manyvisions.net/theme/news_list4.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_list5{
-	background-image: url(news_list5.jpg)/*tpa=http://www.manyvisions.net/theme/news_list5.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_list5.jpg)/*tpa=http://www.manyvisions.net/theme/news_list5.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top {
-	width: 960px;
-	height: 342px;
-	float: left;
-	margin-top: 90px;
+    width: 960px;
+    height: 342px;
+    float: left;
+    margin-top: 90px;
 }
 .news_top0 {
-	background-image: url(news_top1.jpg)/*tpa=http://www.manyvisions.net/theme/news_top1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top1.jpg)/*tpa=http://www.manyvisions.net/theme/news_top1.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top1 {
-	background-image: url(news_top1.jpg)/*tpa=http://www.manyvisions.net/theme/news_top1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top1.jpg)/*tpa=http://www.manyvisions.net/theme/news_top1.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top2 {
-	background-image: url(news_top2.jpg)/*tpa=http://www.manyvisions.net/theme/news_top2.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top2.jpg)/*tpa=http://www.manyvisions.net/theme/news_top2.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top3 {
-	background-image: url(news_top3.jpg)/*tpa=http://www.manyvisions.net/theme/news_top3.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top3.jpg)/*tpa=http://www.manyvisions.net/theme/news_top3.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top4 {
-	background-image: url(news_top4.jpg)/*tpa=http://www.manyvisions.net/theme/news_top4.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top4.jpg)/*tpa=http://www.manyvisions.net/theme/news_top4.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_top5 {
-	background-image: url(news_top5.jpg)/*tpa=http://www.manyvisions.net/theme/news_top5.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(news_top5.jpg)/*tpa=http://www.manyvisions.net/theme/news_top5.jpg*/;
+    background-repeat: no-repeat;
 }
 .news_nav{
-	float: left;
-	border-bottom: 1px solid #cfcfcf;
-	width: 588px;
-	margin-top: 265px;
-	padding-bottom: 10px;
-	margin-left: 15px;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    width: 588px;
+    margin-top: 265px;
+    padding-bottom: 10px;
+    margin-left: 15px;
 }
 .news_nav li{float:left;}
 .news_nav li a{
-	display: block;
-	text-align: center;
-	margin-right: 13px;
-	font-family: "微软雅黑";
-	font-size: 18px;
-	margin-left: 13px;
-	color: #bcbcbc;
+    display: block;
+    text-align: center;
+    margin-right: 13px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    margin-left: 13px;
+    color: #bcbcbc;
 }
 .news_nav li a:hover{color: #000000;}
 .news_nav li a.hover{color: #000000;}
 .news_nav li a span{
-	display: block;
-	font-family: "微软雅黑";
-	font-size: 10px;
-	color: #bcbcbc;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 10px;
+    color: #bcbcbc;
 }
 .news_nav li a:hover span{
-	color: #000000;
+    color: #000000;
 }
 .news_nav li a.hover span{
-	color: #000000;
+    color: #000000;
 }
 .news_img{
-	float: right;
-	margin-top: 10px;
-	width: 319px;
-	height: 319px;
+    float: right;
+    margin-top: 10px;
+    width: 319px;
+    height: 319px;
 }
 .news_list{
-	width: 960px;
-	float: left;
+    width: 960px;
+    float: left;
 }
 .news_list ul{
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .news_list ul li{
-	float: left;
-	padding: 8px 0 8px 0;
-	border-bottom: 1px solid #cacaca;
-	margin-left: 10px;
-	width: 470px;
-	height: 220px;
-	margin-bottom: 3px;
+    float: left;
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid #cacaca;
+    margin-left: 10px;
+    width: 470px;
+    height: 220px;
+    margin-bottom: 3px;
 }
 
 .news_list ul li a{width:470px; display:block;}
 
 .news_list .nr{
-	width: 470px;
-	float: left;
-	padding-bottom: 0;
-	padding-left: 0px;
-	padding-right: 0;
-	padding-top: 10px;
+    width: 470px;
+    float: left;
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-right: 0;
+    padding-top: 10px;
 }
 
 .news_list ul{overflow:hidden;}
@@ -1606,311 +1606,311 @@ a.hover.shop6{
 .news_list ul li a:hover b{color:#c46200;}
 
 .news_view{
-	width: 960px;
-	overflow: hidden;
-	margin-top: 55px;
-	margin-right: auto;
-	margin-left: auto;
+    width: 960px;
+    overflow: hidden;
+    margin-top: 55px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .news_view img{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .news_view .declaration{
-	width: 940px;
-	float: left;
-	font-size: 12px;
-	line-height: 22px;
-	padding-right: 10px;
-	padding-bottom: 15px;
-	padding-left: 10px;
+    width: 940px;
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 .news_view h1{
-	font-size: 24px;
-	font-family: "微软雅黑";
-	color: #333333;
-	height: 50px;
-	line-height: 60px;
-	float: left;
-	width: 960px;
-	margin-top: 30px;
-	margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: #333333;
+    height: 50px;
+    line-height: 60px;
+    float: left;
+    width: 960px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .news_date{
-	font-size: 12px;
-	float: left;
-	line-height: 16px;
-	width: 960px;
-	padding-bottom: 15px;
-	margin-bottom: 15px;
-	border-bottom: 1px dotted #cccccc;
-	color:#989898;
+    font-size: 12px;
+    float: left;
+    line-height: 16px;
+    width: 960px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #cccccc;
+    color:#989898;
 }
 
 
 .top-banner{
-	height:543px;
-	width:100%;
-	margin:0 auto;
-	position: relative;
-	z-index: 1;
+    height:543px;
+    width:100%;
+    margin:0 auto;
+    position: relative;
+    z-index: 1;
 }
 
 .top-banner a{
-	left:50%;
-	margin-left:-960px;
-	top:0;
-	position: absolute;
+    left:50%;
+    margin-left:-960px;
+    top:0;
+    position: absolute;
 }
 
 
 .scene {
-	width: 986px;
-	overflow: hidden;
-	margin-bottom: 15px;
+    width: 986px;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
 .scene .scene_auto{
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 61px;
-	overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 61px;
+    overflow: hidden;
 }
 .scene_list0{
-	background-image: url(scene_list0.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list0.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(scene_list0.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list0.jpg*/;
+    background-repeat: no-repeat;
 }
 .scene_list1{
-	background-image: url(scene_list1.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list1.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(scene_list1.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list1.jpg*/;
+    background-repeat: no-repeat;
 }
 .scene_list2{
-	background-image: url(scene_list2.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list2.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(scene_list2.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list2.jpg*/;
+    background-repeat: no-repeat;
 }
 .scene_list3{
-	background-image: url(scene_list3.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list3.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(scene_list3.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list3.jpg*/;
+    background-repeat: no-repeat;
 }
 .scene_list4{
-	background-image: url(scene_list4.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list4.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(scene_list4.jpg)/*tpa=http://www.manyvisions.net/theme/scene_list4.jpg*/;
+    background-repeat: no-repeat;
 }
 .hot_scene{
-	width: 960px;
-	float: left;
-	height: 287px;
-	background-image: url(hot_scene.jpg)/*tpa=http://www.manyvisions.net/theme/hot_scene.jpg*/;
-	background-repeat: no-repeat;
-	margin-top: 20px;
-	margin-bottom: 20px;
+    width: 960px;
+    float: left;
+    height: 287px;
+    background-image: url(hot_scene.jpg)/*tpa=http://www.manyvisions.net/theme/hot_scene.jpg*/;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .hot_scene ul {
-	padding-top: 90px;
+    padding-top: 90px;
 }
 .hot_scene li{
-	float: left;
-	margin-right: 1px;
-	text-align: center;
-	line-height: 24px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+    line-height: 24px;
 }
 .scene_list ul{padding-top: 75px;width: 960px;}
 .scene_list li{
-	float: left;
-	border-bottom: 1px solid #e3e3e3;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-	width: 960px;
-	height: 255px;
+    float: left;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    width: 960px;
+    height: 255px;
 }
 .scene_h1_1{
-	float: left;
-	width: 960px;
-	background-image: url(scene_h1_1.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_1.jpg*/;
-	background-repeat: no-repeat;
-	
+    float: left;
+    width: 960px;
+    background-image: url(scene_h1_1.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_1.jpg*/;
+    background-repeat: no-repeat;
+
 }
 .scene_h1_2{
-	float: left;
-	width: 960px;
-	background-image: url(scene_h1_2.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_2.jpg*/;
-	background-repeat: no-repeat;
-	
+    float: left;
+    width: 960px;
+    background-image: url(scene_h1_2.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_2.jpg*/;
+    background-repeat: no-repeat;
+
 }
 .scene_h1_3{
-	float: left;
-	width: 960px;
-	background-image: url(scene_h1_3.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_3.jpg*/;
-	background-repeat: no-repeat;
-	
+    float: left;
+    width: 960px;
+    background-image: url(scene_h1_3.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_3.jpg*/;
+    background-repeat: no-repeat;
+
 }
 .scene_h1_4{
-	float: left;
-	width: 960px;
-	background-image: url(scene_h1_4.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_4.jpg*/;
-	background-repeat: no-repeat;
-	
+    float: left;
+    width: 960px;
+    background-image: url(scene_h1_4.jpg)/*tpa=http://www.manyvisions.net/theme/scene_h1_4.jpg*/;
+    background-repeat: no-repeat;
+
 }
 
 
 .scene_view{
-	width: 960px;
-	overflow: hidden;
-	margin-top: 15px;
-	float:left;
+    width: 960px;
+    overflow: hidden;
+    margin-top: 15px;
+    float:left;
 }
 .scene_view img{
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .scene_view .declaration{
-	width: 940px;
-	float: left;
-	font-size: 12px;
-	line-height: 22px;
-	padding-right: 10px;
-	padding-bottom: 15px;
-	padding-left: 10px;
+    width: 940px;
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 .scene_view h1{
-	font-size: 30px;
-	font-family: "微软雅黑";
-	color: #cca6c4;
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-	float: left;
-	width: 960px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "微软雅黑";
+    color: #cca6c4;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    width: 960px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .scene_date{
-	font-family: "微软雅黑";
-	font-size: 12px;
-	float: left;
-	line-height: 16px;
-	margin-right: 10px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    float: left;
+    line-height: 16px;
+    margin-right: 10px;
 }
 .scene_view .turn {
-	float: left;
-	width: 960px;
-	height: 349px;
-	margin-bottom: 35px;
+    float: left;
+    width: 960px;
+    height: 349px;
+    margin-bottom: 35px;
 }
 .scene_view .turn .prev{
-	float: left;
-	height: 349px;	
+    float: left;
+    height: 349px;
 }
 .scene_view .turn .prev a{
-	width: 151px;
-	height: 60px;
-	background-image: url(prev.gif)/*tpa=http://www.manyvisions.net/theme/prev.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-top: 160px;
-	margin-left: 25px;
-	margin-right: 45px;
+    width: 151px;
+    height: 60px;
+    background-image: url(prev.gif)/*tpa=http://www.manyvisions.net/theme/prev.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-top: 160px;
+    margin-left: 25px;
+    margin-right: 45px;
 }
 .scene_view .turn .center{
-	float: left;
-	height: 349px;
+    float: left;
+    height: 349px;
 }
 .scene_view .turn .next{
-	float: left;
-	height: 349px;
+    float: left;
+    height: 349px;
 }
 .scene_view .turn .next a{
-	width: 148px;
-	height: 60px;
-	background-image: url(next.gif)/*tpa=http://www.manyvisions.net/theme/next.gif*/;
-	background-repeat: no-repeat;
-	display: block;
-	margin-left: 43px;
-	margin-right: 27px;
-	margin-top: 160px;
+    width: 148px;
+    height: 60px;
+    background-image: url(next.gif)/*tpa=http://www.manyvisions.net/theme/next.gif*/;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 43px;
+    margin-right: 27px;
+    margin-top: 160px;
 }
 .scene_img{
-	width: 960px;
-	float: left;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px solid #e3e3e3;
-	margin-top: 20px;
+    width: 960px;
+    float: left;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-top: 20px;
 }
 
 
 .review {
-	background-image: url(review.jpg)/*tpa=http://www.manyvisions.net/theme/review.jpg*/;
-	background-repeat: no-repeat;
+    background-image: url(review.jpg)/*tpa=http://www.manyvisions.net/theme/review.jpg*/;
+    background-repeat: no-repeat;
 }
 .reason{
-	width: 960px;
-	float: left;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #e3e3e3;
-	background-image: url(reason.gif)/*tpa=http://www.manyvisions.net/theme/reason.gif*/;
-	background-repeat: no-repeat;
-	height: 290px;
-	padding-top: 70px;
+    width: 960px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
+    background-image: url(reason.gif)/*tpa=http://www.manyvisions.net/theme/reason.gif*/;
+    background-repeat: no-repeat;
+    height: 290px;
+    padding-top: 70px;
 }
 .reason dl{
-	width: 300px;
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 30px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 .reason dl dt{
-	font-size: 18px;
-	text-align: center;
-	font-family: "微软雅黑";
-	margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "微软雅黑";
+    margin-bottom: 15px;
 }
 .reason dl dd{
-	font-size: 12px;
+    font-size: 12px;
 }
 .stamp{
-	width: 960px;
-	float: left;
-	background-image: url(stamp.gif)/*tpa=http://www.manyvisions.net/theme/stamp.gif*/;
-	background-repeat: no-repeat;
-	padding-top: 120px;
-	overflow: hidden;
+    width: 960px;
+    float: left;
+    background-image: url(stamp.gif)/*tpa=http://www.manyvisions.net/theme/stamp.gif*/;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    overflow: hidden;
 }
 .stamp ul{
-	width: 980px;
-	overflow: hidden;
+    width: 980px;
+    overflow: hidden;
 }
 .stamp li{
-	width: 235px;
-	float: left;
-	margin-right: 6px;
-	margin-bottom: 20px;
+    width: 235px;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 20px;
 }
 .stamp li span{
-	width: 60px;
-	float: left;
-	margin-right: 5px;
+    width: 60px;
+    float: left;
+    margin-right: 5px;
 }
 .stamp li p{
-	width: 152px;
-	float: left;
-	font-size: 12px;
-	line-height: 16px;
-	background-image: url(stampli.jpg)/*tpa=http://www.manyvisions.net/theme/stampli.jpg*/;
-	background-repeat: no-repeat;
-	height: 65px;
-	padding-top: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-left: 13px;
+    width: 152px;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    background-image: url(stampli.jpg)/*tpa=http://www.manyvisions.net/theme/stampli.jpg*/;
+    background-repeat: no-repeat;
+    height: 65px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
 }
 
 
@@ -1919,128 +1919,128 @@ a.hover.shop6{
 
 
 .footer {
-	CLEAR: both;
-	BACKGROUND-COLOR: #212121;
-	height: 500px;
-	border-top-width: 26px;
-	border-top-style: solid;
-	border-top-color: #ffffff;
+    CLEAR: both;
+    BACKGROUND-COLOR: #212121;
+    height: 500px;
+    border-top-width: 26px;
+    border-top-style: solid;
+    border-top-color: #ffffff;
 }
 .innerWrapper {
-	width: 980px;
-	margin-top: -26px;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
+    width: 980px;
+    margin-top: -26px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 }
 .sitemaps {
-	POSITION: relative; PADDING-TOP:0px;padding-bottom:20px;BACKGROUND-COLOR: #212121; 
+    POSITION: relative; PADDING-TOP:0px;padding-bottom:20px;BACKGROUND-COLOR: #212121;
 }
 .sitemaps .qqchatFooter {
-	POSITION: absolute; WIDTH: 250px; TOP: 140px; LEFT: 20px;
+    POSITION: absolute; WIDTH: 250px; TOP: 140px; LEFT: 20px;
 }
 .sitemaps .qqchatFooter A.qqchatF {
-	WIDTH: 250px; DISPLAY: block; BACKGROUND: url(../theme/QQ_chat_footer.gif) no-repeat; HEIGHT: 76px;text-indent:-9999px;
+    WIDTH: 250px; DISPLAY: block; BACKGROUND: url(../theme/QQ_chat_footer.gif) no-repeat; HEIGHT: 76px;text-indent:-9999px;
 }
 .sitemaps .qqchatFooter A.qqchatF:hover {
-	BACKGROUND-POSITION: left bottom
+    BACKGROUND-POSITION: left bottom
 }
 .sitemaps .qqchatFooter A.address {
-	MARGIN-TOP: 10px; WIDTH: 250px; DISPLAY: block; BACKGROUND: url(../theme/address.gif) no-repeat; HEIGHT: 69px;
-	text-indent:-9999px;
+    MARGIN-TOP: 10px; WIDTH: 250px; DISPLAY: block; BACKGROUND: url(../theme/address.gif) no-repeat; HEIGHT: 69px;
+    text-indent:-9999px;
 }
 .sitemaps .qqchatFooter A.address:hover {
-	BACKGROUND-POSITION: left bottom
+    BACKGROUND-POSITION: left bottom
 }
 .sitemaps .qqchatFooter a ins{
-	text-indent:-9999px;
-	}
+    text-indent:-9999px;
+}
 .sitemaps UL {
-	LINE-HEIGHT: 24px; WIDTH: 580px; FLOAT: right;padding-top:30px;
+    LINE-HEIGHT: 24px; WIDTH: 580px; FLOAT: right;padding-top:30px;
 }
 .sitemaps UL LI {
-	WIDTH: 180px; FLOAT: left; HEIGHT: 180px; MARGIN-LEFT: 5px
+    WIDTH: 180px; FLOAT: left; HEIGHT: 180px; MARGIN-LEFT: 5px
 }
 .sitemaps UL LI DL A {
-	TEXT-ALIGN: right; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #fff
+    TEXT-ALIGN: right; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #fff
 }
 .sitemaps UL LI DT {
-	FONT-SIZE: 12px;
-	FONT-WEIGHT: bold;
-	font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .sitemaps UL LI DD {
-	MARGIN-BOTTOM: 1px
+    MARGIN-BOTTOM: 1px
 }
 .sitemaps UL LI DT A {
-	BACKGROUND-COLOR: #000; COLOR: #804f95;
+    BACKGROUND-COLOR: #000; COLOR: #804f95;
 }
 .sitemaps UL LI DT A:hover {
-	COLOR: #fff
+    COLOR: #fff
 }
 .sitemaps UL LI DD A {
-	
+
 }
 .sitemaps UL LI DD A:hover {
-	BACKGROUND-COLOR: #333
+    BACKGROUND-COLOR: #333
 }
 .nx {
-	width: 1000px;
-	height: 162px;
-	background-image: url(../theme/nx.jpg);
-	background-repeat: no-repeat;
-	margin-right: auto;
-	margin-left: auto;
-	color: #FFFFFF;
-	overflow: hidden;
+    width: 1000px;
+    height: 162px;
+    background-image: url(../theme/nx.jpg);
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFFFFF;
+    overflow: hidden;
 }
 #footer .lovemy{
-	width: 100%;
-	height: 130px;
-	background-color: #4b275d;
+    width: 100%;
+    height: 130px;
+    background-color: #4b275d;
 }
 #footer .lovemy p{
-	width: 993px;
-	height: 130px;
-	margin-right: auto;
-	margin-left: auto;
+    width: 993px;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 .SayWrapper{
-	padding-top: 0;
-	padding-left:15px;
+    padding-top: 0;
+    padding-left:15px;
 }
 .SayWrapper a{
-	background-image: url(../theme/say.gif);
-	background-repeat: no-repeat;
-	background-position: left top;
-	display: block;
-	float: left;
-	height: 45px;
-	width: 149px;
-	color: #666;
-	padding-left: 65px;
-	padding-top: 3px;
-	padding-right: 5px;
-	padding-bottom: 3px;
-	margin-right: 15px;
-	margin-bottom: 20px;
-	position: relative;
-	font-size: 12px;
-	line-height: 18px;
+    background-image: url(../theme/say.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    float: left;
+    height: 45px;
+    width: 149px;
+    color: #666;
+    padding-left: 65px;
+    padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 12px;
+    line-height: 18px;
 }
 .SayWrapper a cite{
-	display: block;
-	height: 50px;
-	width: 50px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 .SayWrapper a:hover{
-	background-position: left bottom;
-	color: #000;
+    background-position: left bottom;
+    color: #000;
 }
 
 
@@ -2055,30 +2055,30 @@ a.hover.shop6{
 .join_lx {width:960px;float:left;}
 
 .join_lx dt{
-	font-family: "微软雅黑";
-	font-size: 24px;
-	color: #cc0000;
-	width: 960px;
-	float: left;
-	height: 38px;
-	font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #cc0000;
+    width: 960px;
+    float: left;
+    height: 38px;
+    font-weight: bold;
 }
 .join_lx dl{
-	float: left;
-	width: 940px;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #595757;
-	border-bottom-width: 3px;
-	border-bottom-style: solid;
-	border-bottom-color: #595757;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    float: left;
+    width: 940px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #595757;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #595757;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .join_lx dd{
-	float: left;
-	margin-right: 40px;
-	line-height: 24px;
+    float: left;
+    margin-right: 40px;
+    line-height: 24px;
 }
 .join_view{width: 960px;}
 
@@ -2098,28 +2098,28 @@ a.hover.shop6{
 .join_img ins{left:-340px;}
 
 ul.join_img_none{
-	width: 180px;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	text-align: center;
+    width: 180px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
 ul.join_img_none li{float:left; padding-left:8px;}
 
 ul.join_img_none li a{
-	width: 8px;
-	height: 8px;
-	display: block;
-	background: #acabab;
-	line-height: 15px;
-	text-align: center;
-	color: #FFF;
-	font-family: "微软雅黑";
-	font-size: 12px;
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: #acabab;
+    line-height: 15px;
+    text-align: center;
+    color: #FFF;
+    font-family: "微软雅黑";
+    font-size: 12px;
 }
 
 ul.join_img_none li a:hover{cursor: pointer;}
@@ -2128,9 +2128,9 @@ ul.join_img_none li a.current{background:#cc0000;}
 
 
 .scroll-to-top{background: url(../theme/icon01.png) no-repeat; bottom: 76px; display: block; left: 50%; margin-left: 540px; position: fixed; z-index:999; width:60px; height:60px;
-_position:absolute;
-_bottom:auto;
-_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); _margin-bottom:76px;}
+    _position:absolute;
+    _bottom:auto;
+    _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))); _margin-bottom:76px;}
 
 
 .float{width:99px;padding:0px;background:#fff;position:absolute;left:20px;top:710px;}
@@ -2141,7 +2141,7 @@ _top:expression(eval(document.documentElement.scrollTop+document.documentElement
 .float .f5{width:99px;height:59px;background:url(../theme/f5.png) no-repeat;display:block;}
 .float a:hover{background-position:left bottom;}
 .float ins{
-	display: none;
+    display: none;
 }
 
 
