@@ -8,9 +8,15 @@
 <div class="main">
 
     <div class="kefu">
-        <a target="_blank" class="qq" href="chatwindow.html"></a>
-        <a class="weibo" href="contact.html"></a>
-        <a class="weixin" href="order.html"></a>
+        <a target="_blank" class="qq" href="#">
+            <img src="<?php echo $this->_baseUrl ?>/images/chat_now.jpg" />
+        </a>
+        <a class="weibo" href="#">
+            <img src="<?php echo $this->_baseUrl ?>/images/line.jpg" />
+        </a>
+        <a class="weixin" href="#">
+            <img src="<?php echo $this->_baseUrl ?>/images/gift.jpg" />
+        </a>
     </div>
 
 
@@ -33,10 +39,18 @@
                     })
                 })
             </script>
-            <a target="_blank" title="婚纱摄影 深圳婚纱照 拍摄婚纱照" href="event_view_218.html"><img width="479" height="479" alt="婚纱摄影 深圳婚纱照 拍摄婚纱照" src="upload/small/201407/201407011404212752.jpg" style="opacity: 1;"></a>
-            <a target="_blank" title="婚礼策划 婚庆服务" href="http://www.very-wedding.com/"><img width="239" height="239" alt="婚礼策划 婚庆服务" src="upload/small/201407/201407071404717165.jpg" style="opacity: 1;"></a>
-            <a target="_blank" title="礼服订制 婚纱礼服 婚纱订做" href="http://weibo.com/szjrxn"><img width="239" height="239" alt="礼服订制 婚纱礼服 婚纱订做" src="upload/small/201407/201407071404717188.jpg" style="opacity: 1;"></a>
-            <a target="_blank" title="微影影像, 微电影,婚纱花絮,婚礼跟拍" href="http://www.lamovies.net/"><img width="479" height="239" alt="微影影像, 微电影,婚纱花絮,婚礼跟拍" src="upload/small/201407/201407071404717369.jpg" style="opacity: 1;"></a></div>
+            <a target="_blank" title="婚纱摄影 深圳婚纱照 拍摄婚纱照" href="#">
+                <img width="540" height="467" alt="婚纱摄影 深圳婚纱照 拍摄婚纱照" src="<?php echo $this->_baseUrl ?>/images/ad_001.jpg" style="opacity: 1;">
+            </a>
+            <a target="_blank" title="婚礼策划 婚庆服务" href="#">
+                <img width="213" height="267" alt="婚礼策划 婚庆服务" src="<?php echo $this->_baseUrl ?>/images/ad_002.jpg" style="opacity: 1;">
+            </a>
+            <a target="_blank" title="礼服订制 婚纱礼服 婚纱订做" href="#">
+                <img width="213" height="267" alt="礼服订制 婚纱礼服 婚纱订做" src="<?php echo $this->_baseUrl ?>/images/ad_003.jpg" style="opacity: 1;">
+            </a>
+            <a target="_blank" title="微影影像, 微电影,婚纱花絮,婚礼跟拍" href="#">
+                <img width="427" height="198" alt="微影影像, 微电影,婚纱花絮,婚礼跟拍" src="<?php echo $this->_baseUrl ?>/images/ad_004.jpg" style="opacity: 1;"></a>
+        </div>
 
     </div>
 
@@ -45,7 +59,7 @@
         <a target="_blank" class="more" title="更多新闻活动" href="news.html"></a>
         <div class="event_m">
             <div class="event_v">
-                <embed width="960" height="540" align="middle" wmode="transparent" allowscriptaccess="always" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="../static.youku.com/v1.0.0423/v/swf/fi000001.swf-videoids=xnzqzmdk0mjm2&amp;embedid=mtyzlje3os40ni4xnaixodu3nzm1ntkcd3d3lm1hbnl2axnpb25zlm5ldaiv&amp;wd=&amp;vext=pid=&amp;emb=mtyzlje3os40ni4xnaixodu3nzm1ntkcd3d3lm1hbnl2axnpb25zlm5ldaiv&amp;bc=&amp;type=0">
+
             </div>
 
 
@@ -66,26 +80,22 @@
 
 
 </div>
-<div class="banner">
-    <p><a target="_blank" title="深圳婚纱摄影 深圳婚纱摄影工作室 每日客片 深圳婚纱照" href="works_1_1.html">
-            <img width="1920" height="418" alt="深圳婚纱摄影 深圳婚纱摄影工作室 每日客片 深圳婚纱照" src="upload/small/201407/201407171405579738.jpg"></a></p>
-</div>
 
 <div class="main">
     <div class="works1">
         <a target="_blank" class="more" title="更多婚纱大赏" href="works_1_1.html"></a>
         <ul>
-            <li><a target="_blank" title="深圳婚纱摄影 最新动态 深圳婚纱摄影工作室" href="works_view_418.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新动态 深圳婚纱摄影工作室" src="upload/small/201407/201407071404722341.jpg">
+            <li><a target="_blank" title="深圳婚纱摄影 最新动态 深圳婚纱摄影工作室" href="#">
+                    <img width="240" height="336" alt="深圳婚纱摄影 最新动态 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_001.jpg">
                     <span class="png" style="bottom: -64px;"><b>CHENGXILI</b></span></a></li>
-            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_415.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201407/201407011404198068.jpg">
+            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="#">
+                    <img width="240" height="336" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_002.jpg">
                     <span class="png" style="bottom: -64px;"><b>ZETING</b></span></a></li>
-            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_412.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406181403087398.jpg">
+            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="#">
+                    <img width="240" height="336" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_003.jpg">
                     <span class="png" style="bottom: -64px;"><b>XUWANA</b></span></a></li>
-            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_410.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406171402985936.jpg">
+            <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="#">
+                    <img width="240" height="336" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_004.jpg">
                     <span class="png"><b>ZHAOXIAOQIAO</b></span></a></li>
         </ul>
     </div>
@@ -94,16 +104,16 @@
         <a target="_blank" class="more" title="更多主题婚纱作品" href="works_2_1.html"></a>
         <ul>
             <li><a target="_blank" title="深圳婚纱摄影 蔓延视觉 最新作品 深圳婚纱摄影工作室" href="works_view_422.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 蔓延视觉 最新作品 深圳婚纱摄影工作室" src="upload/small/201407/201407191405754028.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 蔓延视觉 最新作品 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_005.jpg">
                     <span class="png" style="bottom: -64px;"><b>温柔的遇见</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新样片 深圳婚纱摄影工作室" href="works_view_421.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新样片 深圳婚纱摄影工作室" src="upload/small/201407/201407161405509058.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新样片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_006.jpg">
                     <span class="png" style="bottom: -64px;"><b>最甜的微笑</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_419.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201407/201407161405495361.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_007.jpg">
                     <span class="png" style="bottom: -64px;"><b>拥抱的初触动</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_420.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201407/201407161405509167.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_008.jpg">
                     <span class="png" style="bottom: -64px;"><b>爱的意义 </b></span></a></li>
         </ul>
     </div>
@@ -112,16 +122,16 @@
         <a target="_blank" class="more" title="更多孕味大赏" href="works_4_1.html"></a>
         <ul>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_413.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406211403323080.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_009.jpg">
                     <span class="png" style="bottom: -64px;"><b>ZHAOCHUN</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_405.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406091402306641.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_010.jpg">
                     <span class="png" style="bottom: -64px;"><b>XIEDONG</b></span></a></li>
             <li><a target="_blank" title="ZHENRUOMENG" href="works_view_11.html">
-                    <img width="239" height="349" alt="ZHENRUOMENG" src="upload/small/201405/201405031399103290.jpg">
+                    <img width="239" height="349" alt="ZHENRUOMENG" src="<?php echo $this->_baseUrl ?>/images/photo_011.jpg">
                     <span class="png" style="bottom: -64px;"><b>ZHENRUOMENG</b></span></a></li>
             <li><a target="_blank" title="LW" href="works_view_12.html">
-                    <img width="239" height="349" alt="LW" src="upload/small/201405/201405031399105400.jpg">
+                    <img width="239" height="349" alt="LW" src="<?php echo $this->_baseUrl ?>/images/photo_012.jpg">
                     <span class="png" style="bottom: -64px;"><b>LW</b></span></a></li>
         </ul>
     </div>
@@ -130,26 +140,28 @@
         <a target="_blank" class="more" title="更多时尚写真" href="works_3_1.html"></a>
         <ul>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_414.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201407/201407021404284029.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_013.jpg">
                     <span class="png" style="bottom: -64px;"><b>DUMING</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_411.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406171402993413.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_014.jpg">
                     <span class="png" style="bottom: -64px;"><b>GUOXHUNYAN</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_407.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201406/201406141402733527.jpg">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_015.jpg">
                     <span class="png" style="bottom: -64px;"><b>FENGSHENGSI</b></span></a></li>
             <li><a target="_blank" title="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" href="works_view_398.html">
-                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="upload/small/201405/201405291401346886.png">
+                    <img width="239" height="349" alt="深圳婚纱摄影 最新客片 深圳婚纱摄影工作室" src="<?php echo $this->_baseUrl ?>/images/photo_016.jpg">
                     <span class="png"><b>NANRENBANG</b></span></a></li>
         </ul>
     </div>
 
-
-
+    <div class="banner2">
+        <a target="_blank" title="盛夏·海韵蓝调-七星湾畔，浩海正蓝，邀您炫世起航" href="">
+            <img width="960" height="535" alt="盛夏·海韵蓝调-七星湾畔，浩海正蓝，邀您炫世起航" src="<?php echo $this->_baseUrl ?>/images/big_ad_001.jpg"></a>
+    </div>
 
     <div class="banner2">
         <a target="_blank" title="盛夏·海韵蓝调-七星湾畔，浩海正蓝，邀您炫世起航" href="">
-            <img width="960" height="535" alt="盛夏·海韵蓝调-七星湾畔，浩海正蓝，邀您炫世起航" src="upload/small/201407/201407231406093381.jpg"></a>
+            <img width="960" height="535" alt="盛夏·海韵蓝调-七星湾畔，浩海正蓝，邀您炫世起航" src="<?php echo $this->_baseUrl ?>/images/addr_bg.jpg"></a>
     </div>
 
 

@@ -53,23 +53,32 @@
             </script>
             <div class="nav">
                 <ul>
-                    <li onmouseover="javascript:toggle_nav(1)"><a title="首页" href="index.htm">首页<span>HOME</span></a>
+                    <li onmouseover="javascript:toggle_nav(1)">
+                        <a title="首页" href="index.htm">首页<span>HOME</span></a>
                     </li>
-                    <li onmouseover="javascript:toggle_nav(2)"><a target="_blank" title="品牌故事"
-                                                                  href="about.html">品牌故事<span>BRAND STORY</span></a>
+                    <li onmouseover="javascript:toggle_nav(2)">
+                        <a target="_blank" title="品牌故事" href="about.html">品牌故事<span>BRAND STORY</span></a>
                     </li>
-                    <li onmouseover="javascript:toggle_nav(3)"><a target="_blank" title="新闻动态"
-                                                                  href="news.htmll">新闻动态<span>NEWS</span></a></li>
-                    <li onmouseover="javascript:toggle_nav(4)"><a target="_blank" title="作品大赏"
-                                                                  href="works.html">作品大赏<span>WEDDING PHOTO</span></a>
+                    <li onmouseover="javascript:toggle_nav(3)">
+                        <a target="_blank" title="新闻动态" href="news.htmll">新闻动态<span>NEWS</span></a>
                     </li>
-                    <li onmouseover="javascript:toggle_nav(5)"><a target="_blank" title="景点介绍"
-                                                                  href="scene.html">景点介绍<span>SITE INTRE</span></a></li>
-                    <li onmouseover="javascript:toggle_nav(6)"><a target="_blank" title="人才招聘"
-                                                                  href="job.html">人才招聘<span>JOB</span></a></li>
-                    <li onmouseover="javascript:toggle_nav(7)"><a target="_blank" title="联系我们"
-                                                                  href="contact.html">联系我们<span>CONTACT</span></a></li>
-                    <li onmouseover="javascript:toggle_nav(8)"><a target="_blank" title="加盟及培训" href="join_view_4.html">基地加盟<span>JOIN</span></a>
+                    <li onmouseover="javascript:toggle_nav(4)">
+                        <a target="_blank" title="作品大赏" href="works.html">作品大赏<span>WEDDING PHOTO</span></a>
+                    </li>
+                    <li onmouseover="javascript:toggle_nav(5)">
+                        <a target="_blank" title="品牌服务" href="scene.html">品牌服务<span>SITE INTRE</span></a>
+                    </li>
+                    <li onmouseover="javascript:toggle_nav(6)">
+                        <a target="_blank" title="婚礼策划" href="job.html">婚礼策划<span>JOB</span></a>
+                    </li>
+                    <li onmouseover="javascript:toggle_nav(7)">
+                        <a target="_blank" title="景点介绍" href="contact.html">景点介绍<span>CONTACT</span></a>
+                    </li>
+                    <li onmouseover="javascript:toggle_nav(8)">
+                        <a target="_blank" title="联系我们" href="join_view_4.html">联系我们<span>JOIN</span></a>
+                    </li>
+                    <li onmouseover="javascript:toggle_nav(8)">
+                        <a target="_blank" title="在线预约" href="join_view_4.html">在线预约<span>JOIN</span></a>
                     </li>
                 </ul>
                 <div class="clear"></div>

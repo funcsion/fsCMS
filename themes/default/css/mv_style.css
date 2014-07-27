@@ -79,7 +79,7 @@ a:hover{color:#b31015;}
 }
 #header .nav li a{
 	font-family: "微软雅黑";
-	font-size: 18px;
+	font-size: 16px;
 	color: #ccc5d2;
 }
 #header .nav li a span{
@@ -220,13 +220,13 @@ a:hover{color:#b31015;}
 
 
 .main{
-	width: 986px;
+	width: 980px;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
 }
 .kefu{
-	width: 960px;
+	width: 980px;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
@@ -239,22 +239,22 @@ a:hover{color:#b31015;}
 	float: left;
 }
 .kefu .qq{
-	height: 150px;
-	width: 319px;
-	background-image: url(qq.jpg)/*tpa=http://www.manyvisions.net/theme/qq.jpg*/;
+	height: 142px;
+	width: 295px;
+
 	background-repeat: no-repeat;
 	margin-right: 0px;
 }
 .kefu .weibo{
-	height: 150px;
-	width: 319px;
+	height: 142px;
+	width: 389px;
 	background-image: url(weibo.jpg)/*tpa=http://www.manyvisions.net/theme/weibo.jpg*/;
 	background-repeat: no-repeat;
 	margin-right: 0px;
 }
 .kefu .weixin{
-	height: 150px;
-	width: 319px;
+	height: 142px;
+	width: 295px;
 	background-image: url(weixin.jpg)/*tpa=http://www.manyvisions.net/theme/weixin.jpg*/;
 	background-repeat: no-repeat;
 }
@@ -262,15 +262,15 @@ a:hover{color:#b31015;}
 .toutiao {
 	width: 986px;
 	overflow: hidden;
-	background-image: url(toutiao.jpg)/*tpa=http://www.manyvisions.net/theme/toutiao.jpg*/;
+	background-image: url(../images/t_news.jpg)/*tpa=http://www.manyvisions.net/theme/toutiao.jpg*/;
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
 }
 .toutiao div{
-	width: 960px;
+	width: 980px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 61px;
+	margin-top: 71px;
 }
 .toutiao div a{
 	float: left;
@@ -371,9 +371,9 @@ a:hover{color:#b31015;}
 
 
 .works1 {
-	width: 986px;
+	width: 980px;
 	overflow: hidden;
-	background-image: url(works1.jpg)/*tpa=http://www.manyvisions.net/theme/works1.jpg*/;
+	background-image: url(../images/t_showcase.jpg)/*tpa=http://www.manyvisions.net/theme/works1.jpg*/;
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
 }
@@ -381,7 +381,7 @@ a:hover{color:#b31015;}
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 61px;
+	margin-top: 71px;
 	overflow: hidden;
 }
 .works1 ul li{
@@ -409,9 +409,9 @@ a:hover{color:#b31015;}
 
 
 .works2 {
-	width: 986px;
+	width: 980px;
 	overflow: hidden;
-	background-image: url(works2.jpg)/*tpa=http://www.manyvisions.net/theme/works2.jpg*/;
+	background-image: url(../images/t_landscape.jpg)/*tpa=http://www.manyvisions.net/theme/works2.jpg*/;
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
 }
@@ -419,7 +419,7 @@ a:hover{color:#b31015;}
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 61px;
+	margin-top: 71px;
 	overflow: hidden;
 }
 .works2 ul li{
@@ -446,9 +446,9 @@ a:hover{color:#b31015;}
 }
 
 .works3 {
-	width: 986px;
+	width: 980px;
 	overflow: hidden;
-	background-image: url(works3.jpg)/*tpa=http://www.manyvisions.net/theme/works3.jpg*/;
+	background-image: url(../images/t_prrtrait.jpg)/*tpa=http://www.manyvisions.net/theme/works3.jpg*/;
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
 }
@@ -456,7 +456,7 @@ a:hover{color:#b31015;}
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 61px;
+	margin-top: 71px;
 	overflow: hidden;
 }
 .works3 ul li{
@@ -484,9 +484,9 @@ a:hover{color:#b31015;}
 
 
 .works4 {
-	width: 986px;
+	width: 980px;
 	overflow: hidden;
-	background-image: url(works4.jpg)/*tpa=http://www.manyvisions.net/theme/works4.jpg*/;
+	background-image: url(../images/t_travel.jpg)/*tpa=http://www.manyvisions.net/theme/works4.jpg*/;
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
 }
@@ -494,7 +494,7 @@ a:hover{color:#b31015;}
 	width: 960px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 61px;
+	margin-top: 71px;
 	overflow: hidden;
 }
 .works4 ul li{
