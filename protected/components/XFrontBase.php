@@ -15,6 +15,8 @@ class XFrontBase extends Controller
     public $layout = '';
     protected $_conf;
     protected $_catalog;
+    protected $_detail_catalog = [];
+    protected $_big_catalog = [];
     protected $_seoTitle;
     protected $_seoKeywords;
     protected $_seoDescription;
@@ -32,6 +34,14 @@ class XFrontBase extends Controller
         //系统配置
         $this->_conf = XXcache::system('_config');
         $this->_catalog = Catalog::get(0, XXcache::system('_catalog'));
+        foreach($this->_catalog as $val) {
+            if($val['parent_id'] == 0) {
+                $this->_big_catalog[] = ['catalog_name' =>$val['catalog_name'],'catalog_name_second' =>$val['catalog_name_second'],'catalog_name_alias' =>$val['catalog_name_alias']];
+            }else {
+                $this->_detail_catalog[$val['parent_id']][] = ['catalog_name' =>$val['catalog_name'],'catalog_name_second' =>$val['catalog_name_second'],'catalog_name_alias' =>$val['catalog_name_alias']];
+            }
+
+        }
         $this->_seoTitle = $this->_conf['seo_title'];
         $this->_seoKeywords = $this->_conf['seo_keywords'];
         $this->_seoDescription = $this->_conf['seo_description'];
