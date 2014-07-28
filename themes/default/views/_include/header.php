@@ -7,9 +7,11 @@
     <meta name="description" content="<?php echo $this->_seoDescription ?>">
     <link rel="stylesheet" href="<?php echo $this->_theme->baseUrl ?>/css/mv_style.css">
     <?php Yii::app()->clientScript->registerCoreScript('jquery', CClientScript::POS_END); ?>
-    <script type="text/javascript" src="<?php echo $this->_baseUrl ?>/static/js/home.js"></script>
+
     <script type="text/javascript" src="<?php echo $this->_baseUrl ?>/static/js/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $this->_baseUrl ?>/static/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="<?php echo $this->_baseUrl ?>/static/js/jquery.SuperSlide.2.1.js"></script>
+
 
 </head>
 <body class="bodyTop">

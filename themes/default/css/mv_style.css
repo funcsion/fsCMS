@@ -98,7 +98,7 @@ a:hover{color:#b31015;}
 .site-nav-left a,.logo,.site-nav-right .cart,.mall-search,.floor-content3 li .arrow,.box-ft .arrow,
 .box-c .box-bd a,.box-c .box-bd span,.foot-tags div,.foot-links-content a,.foot-bt-links .lang-tip ,.foot-bt-links .lang,
 .floor1-nav-content a div,.banner-nav li,.ft-logo,.floor1-title{
-	background: url(icons.png)/*tpa=http://www.manyvisions.net/theme/icons.png*/ no-repeat;
+	background: url(../images/icons.png)/*tpa=http://www.manyvisions.net/theme/icons.png*/ no-repeat;
 }
 .slide-banner{
 	height: 543px;

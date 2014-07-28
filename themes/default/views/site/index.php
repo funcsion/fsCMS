@@ -250,7 +250,7 @@
 
 </script>
 
-
+<script type="text/javascript" src="<?php echo $this->_baseUrl ?>/static/js/home.js"></script>
 <?php $this->renderPartial('/_include/footer')?>
 
 
