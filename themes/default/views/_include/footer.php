@@ -5,7 +5,7 @@
 
             <div class="lovemy">
                 <p>
-                    <a target="_blank" title="点击这里,了解您非选择蔓延视觉不可的理由,来自网络平台的真实评价" href="review.html">
+                    <a target="_blank" title="点击这里,了解您非选择丘比特不可的理由,来自网络平台的真实评价" href="review.html">
                         <img width="993" height="130" src="<?php echo $this->_theme->baseUrl ?>/images/footer_banner.jpg">
                     </a>
                 </p>
@@ -14,7 +14,7 @@
             <div class="qqchatFooter">
 
 
-                <img alt="蔓延视觉" src="<?php echo $this->_theme->baseUrl ?>/images/sys.jpg">
+                <img alt="丘比特" src="<?php echo $this->_theme->baseUrl ?>/images/sys.jpg">
 
             </div>
 
