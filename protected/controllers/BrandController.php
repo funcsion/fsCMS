@@ -19,5 +19,17 @@ class BrandController extends XFrontBase
     {
         $this->render('about',array('model'=>$model));
     }
+    public function actionCourse()
+    {
+        $this->render('course',array('model'=>$model));
+    }
+    public function actionIdea()
+    {
+        $this->render('idea',array('model'=>$model));
+    }
+    public function actionJob()
+    {
+        $this->render('job',array('model'=>$model));
+    }
 
 }
