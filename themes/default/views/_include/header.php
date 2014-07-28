@@ -2,9 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title><?php echo $this->_seoTitle ?> - Powered By BageCMS</title>
-    <meta name="generator" content="BageCMS CMS"/>
-    <meta name="author" content="shuguang"/>
+    <title><?php echo $this->_seoTitle ?></title>
     <meta name="keywords" content="<?php echo $this->_seoKeywords ?>">
     <meta name="description" content="<?php echo $this->_seoDescription ?>">
     <link rel="stylesheet" href="<?php echo $this->_theme->baseUrl ?>/css/mv_style.css">
@@ -74,9 +72,9 @@
                 <div id="zzjs_nav<?=$j +=1;?>" class="headt" style="display:none">
                     <?php for($i=0;$i<count($row);$i++){?>
                         <?php if($i == 0):?>
-                            <a href="about.html"  title="<?=$row[$i]['catalog_name']?>" target="_blank"><?=$row[$i]['catalog_name']?></a>
+                            <a href="<?php echo $this->createUrl($row[$i]['catalog_name_alias'])?>"  title="<?=$row[$i]['catalog_name']?>" target="_blank"><?=$row[$i]['catalog_name']?></a>
                         <?php else:?>
-                            | <a href="about.html"  title="<?=$row[$i]['catalog_name']?>" target="_blank"><?=$row[$i]['catalog_name']?></a>
+                            | <a href="<?php echo $this->createUrl($row[$i]['catalog_name_alias'])?>"  title="<?=$row[$i]['catalog_name']?>" target="_blank"><?=$row[$i]['catalog_name']?></a>
                         <?php endif;?>
                     <?php }?>
                 </div>
