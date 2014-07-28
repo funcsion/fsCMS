@@ -177,7 +177,7 @@ a:hover{color:#b31015;}
 	CLEAR: both;background-color:#000;padding-left:70px;
 }
 .copyright_info .copyright {
-	HEIGHT: 150px; COLOR: #fff; clear:both;
+	HEIGHT: 120px; COLOR: #fff; clear:both;
 }
 .copyright_info .copyright P {
 	PADDING-TOP: 10px
@@ -1960,7 +1960,7 @@ a.hover.shop6{
 	LINE-HEIGHT: 24px; WIDTH: 580px; FLOAT: right;padding-top:30px;
 }
 .sitemaps UL LI {
-	WIDTH: 180px; FLOAT: left; HEIGHT: 180px; MARGIN-LEFT: 5px
+	WIDTH: 180px; FLOAT: right; HEIGHT: 180px; MARGIN-LEFT: 5px
 }
 .sitemaps UL LI DL A {
 	TEXT-ALIGN: right; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; COLOR: #fff

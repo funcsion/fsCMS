@@ -17,36 +17,57 @@
                 <img alt="蔓延视觉" src="<?php echo $this->_theme->baseUrl ?>/images/sys.jpg">
 
             </div>
+
+
+
+
             <ul>
                 <li>
                     <dl>
-                        <dt><a href="index.htm" title="蔓延视觉">MANYVISIONS</a></dt>
-                        <dd><a href="index.htm" title="首页">HOME 首页</a></dd>
-                        <dd><a target="_blank" href="http://weibo.com/manyvision" title="人才招聘">JOB 人才招聘</a></dd>
-                        <dd><a target="_blank" href="contact.html" title="联系我们">CONTACT 联系我们</a></dd>
-                        <dd><a target="_blank" href="join_view_4.html" title="基地加盟">JOIN 基地加盟</a></dd>
-                        <dd><a target="_blank" href="order.html" title="在线预约">BOOKING 在线预约</a></dd>
+                        <dt><a href="#" title="品牌故事">品牌故事</a></dt>
+                        <dd><a href="#" title="关于我们">关于我们</a></dd>
+                        <dd><a target="_blank" href="#" title="发展历程">发展历程</a></dd>
+                        <dd><a target="_blank" href="#" title="企业理念">企业理念</a></dd>
+                        <dd><a target="_blank" href="#" title="人才招聘">人才招聘</a></dd>
+                        <dd><a target="_blank" href="#" title="在线预约">在线预约</a></dd>
+                        <dd><a target="_blank" href="#" title="联系我们">联系我们</a></dd>
                     </dl>
                 </li>
                 <li>
                     <dl>
-                        <dt><a target="_blank" href="about.html" title="品牌故事">BRAND</a></dt>
-                        <dd><a target="_blank" href="about.html" title="关于我们">ABOUT US 关于我们</a></dd>
-                        <dd><a target="_blank" href="course.html" title="发展历程">HISORY 发展历程</a></dd>
-
-                        <dd><a target="_blank" href="idea.html" title="企业理念">IDEA 企业理念</a></dd>
+                        <dt><a target="_blank" href="#" title="新闻动态">新闻动态</a></dt>
+                        <dd><a target="_blank" href="#" title="活动印花">活动印花</a></dd>
+                        <dd><a target="_blank" href="#" title="微点评">微点评</a></dd>
+                        <dd><a target="_blank" href="#" title="关注我们">关注我们</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><a href="news.html" title="作品大赏">作品大赏</a></dt>
+                        <dd><a target="_blank" href="#" title="新作大赏">新作大赏</a></dd>
+                        <dd><a target="_blank" href="#" title="婚纱客片">婚纱客片</a></dd>
+                        <dd><a target="_blank" href="#" title="主题婚纱">主题婚纱</a></dd>
+                        <dd><a target="_blank" href="#" title="个性写真">个性写真</a></dd>
+                        <dd><a target="_blank" href="#" title="微影视觉">微影视觉</a></dd>
 
                     </dl>
                 </li>
                 <li>
                     <dl>
-                        <dt><a href="news.html" title="新闻动态">NEWS</a></dt>
-                        <dd><a target="_blank" href="news_1_1.html" title="活动印花">ACTIVITIES STAMP 活动印花</a></dd>
-                        <dd><a target="_blank" href="news_2_1.html" title="蔓延视觉">MANY VISIONS 蔓延视觉</a></dd>
-                        <dd><a target="_blank" href="news_5_1.html" title="微影影像">LAMOVIE 微影影像</a></dd>
-                        <dd><a target="_blank" href="news_4_1.html" title="唯婷婚礼顾问">V WEDDING 唯婷婚礼顾问</a></dd>
-                        <dd><a target="_blank" href="news_3_1.html" title="嫁日新娘">MANY BRIDE 嫁日新娘</a></dd>
-                        <dd><a target="_blank" href="review.html" title="微点评">REVIEWS 微点评</a></dd>
+                        <dt><a href="news.html" title="品牌服务">品牌服务</a></dt>
+                        <dd><a target="_blank" href="#" title="时尚婚纱">时尚婚纱</a></dd>
+                        <dd><a target="_blank" href="#" title="艺术写真">艺术写真</a></dd>
+                        <dd><a target="_blank" href="#" title="闺蜜倩影">闺蜜倩影</a></dd>
+                        <dd><a target="_blank" href="#" title="微影视觉">微影视觉</a></dd>
+                        <dd><a target="_blank" href="#" title="景点介绍">景点介绍</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt><a href="news.html" title="婚礼策划">婚礼策划</a></dt>
+                        <dd><a target="_blank" href="#" title="婚礼殿堂">婚礼殿堂</a></dd>
+                        <dd><a target="_blank" href="#" title="婚礼顾问">婚礼顾问</a></dd>
+                        <dd><a target="_blank" href="#" title="嫁日新娘">嫁日新娘</a></dd>
                     </dl>
                 </li>
 
@@ -58,27 +79,21 @@
 <div class="copyright_info">
     <div class="copyright">
         <div class="innerWrapper">
-
-            <p>2005-2014 &copy; 深圳市蔓延视觉文化传播有限公司版权所有
+            <p>
+                华柏时尚店：中山市东区华柏路32号（广东发展银行中山分行斜对面，华柏路与白水井大街交汇处）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ:1932684035
+            </p>
+            <p>
+                孙文西影城：中山市石岐孙文西路32号（中山百货往西山寺方向100米，新华书店对面）&nbsp;&nbsp;&nbsp;&nbsp;电话：88663777&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ：1984655204
+            </p>
+            <p>
+                丘比特小榄店：中山市小榄新市路105号（花城酒店往新永路方赂200米，广东发展银行对面）&nbsp;&nbsp;电话：88661177&nbsp;&nbsp;QQ：2427236521
+            </p>
+            <p>2005-2014 &copy; 丘比特高端婚纱摄影机构
                 <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn">粤ICP备00000000号-0</a> 技术支持：
                 <a target="_blank" rel="nofollow" href="#">方臣网络</a>
             </p>
-            <p><a title="首页" href="index.htm">首页</a> |  <a title="品牌故事" href="about.html">品牌故事</a> |
-                <a title="新闻动态" href="news.html">新闻动态</a> |  <a title="作品大赏" href="works.html">作品大赏</a> |
-                <a title="景点介绍" href="scene.html">景点介绍</a> |
-                <a title="人才招聘" href="job.html">人才招聘</a> |
-                <a title="联系我们" href="contact.html ">联系我们</a> |
-                <a title="基地加盟" href="join.html">基地加盟</a></p>
-            <p><span style="color:#fff;">蔓延视觉-<a href="index.htm">深圳婚纱摄影</a>行业领军品牌 全国顶尖外景
-    <a href="index.htm">婚纱摄影</a>机构!</span> <span style="visibility:hidden"></span></p>
-            <div id="netso"><b>友情链接</b>：<a target="_blank" href="http://www.lamovies.net/">微影影像</a>
-                <a target="_blank" href="index.htm">佛山婚纱摄影</a>
-                <a target="_blank" href="http://www.very-wedding.com/">深圳婚礼策划</a>
-                <a target="_blank" href="index.htm">深圳摄影工作室</a>
-                <a target="_blank" href="index.htm">蔓延视觉</a>
-                <a target="_blank" href="index.htm">深圳婚纱摄影</a>
-                <a target="_blank" href="index.htm">广州婚纱摄影</a>
-                <a target="_blank" href="http://se.360.cn/">360安全浏览器</a></div>
+
+
         </div>
     </div>
 
