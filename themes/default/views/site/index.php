@@ -71,7 +71,7 @@
                     <li><a target="_blank" title="丘比特婚纱 中山婚纱摄影 网络婚博会" href="event/201404/index.htm"><img width="92" height="92" alt="丘比特婚纱 中山婚纱摄影 网络婚博会" src="upload/small/201404/201404171397717609.jpg"><div class="nr"><b>首届网络婚博会,春季最后一波优惠！</b><i>HITS:837 </i><small>TIME:2014-04-15</small><div class="clear"></div><p>【首届春季网络婚博会】最后一波优惠来袭！拍婚纱照、拍微电影、租赁婚纱礼服办婚庆服务......</p></div></a></li>
                     <li><a target="_blank" title="中山婚纱摄影 最新动态 中山婚纱摄影工作室" href="event_view_163.html"><img width="92" height="92" alt="中山婚纱摄影 最新动态 中山婚纱摄影工作室" src="upload/small/201403/201403251395720641.jpg"><div class="nr"><b>百花齐放－千鸟争鸣－万物复苏</b><i>HITS:651 </i><small>TIME:2014-03-25</small><div class="clear"></div><p>今夜还吹着风，想起你好温柔，有你的日子分外轻松，也不是无影踪，只是想你太浓，怎么会无时无刻把你梦...</p></div></a></li>
                     <li><a target="_blank" title="中山婚纱摄影 最新动态 中山婚纱摄影工作室" href="event_view_160.html">
-                            <img width="92" height="92" alt="中山婚纱摄影 最新动态 中山婚纱摄影工作室" src="upload/small/201403/201403191395214031.jpg"><div class="nr"><b>佛山丘比特婚纱周年庆典</b><i>HITS:5776 </i><small>TIME:2014-03-19</small><div class="clear"></div><p>【佛山#丘比特婚纱# -周年庆典】活动时间：3月24-31日；店庆期间特惠套餐专享福利；网络咨询进店订单另有额外惊喜礼品；...</p></div></a></li>
+                            <img width="92" height="92" alt="中山婚纱摄影 最新动态 中山婚纱摄影工作室" src="upload/small/201403/201403191395214031.jpg"><div class="nr"><b>丘比特婚纱周年庆典</b><i>HITS:5776 </i><small>TIME:2014-03-19</small><div class="clear"></div><p>【#丘比特婚纱# -周年庆典】活动时间：3月24-31日；店庆期间特惠套餐专享福利；网络咨询进店订单另有额外惊喜礼品；...</p></div></a></li>
                 </ul>
             </div>
         </div>

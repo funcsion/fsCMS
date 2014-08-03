@@ -41,14 +41,14 @@ return array(
            'class'=>'CFileCache',
         ),
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.0.0.1;dbname=fun_cms',
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=bagecms',
 			'emulatePrepare' => true,
 			'enableParamLogging' => true,
 			'enableProfiling'=>true,
 			'username' => 'root',
 			'password' => 'Dbadmin1234',
 			'charset' => 'utf8',
-			'tablePrefix' => 'fun_',
+			'tablePrefix' => 'bage_',
 		),
 		'errorHandler'=>array(
             'errorAction'=>'error/index',
