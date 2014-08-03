@@ -18,6 +18,9 @@
 <script src="<?php echo $this->_baseUrl?>/static/js/validationEngine/jquery.validationEngine.min.js" ></script>
 <link rel="stylesheet" type="text/css" href="<?php echo $this->_baseUrl?>/static/js/zebra_dialog/css/zebra_dialog.css">
 <script src="<?php echo $this->_baseUrl?>/static/js/zebra_dialog/zebra_dialog.js"></script>
+
+<link href="http://fex.baidu.com/webuploader/css/webuploader.css" type="text/css" rel="stylesheet">
+<link href="http://fex.baidu.com/webuploader/css/demo.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 <div id="append_parent"></div>
